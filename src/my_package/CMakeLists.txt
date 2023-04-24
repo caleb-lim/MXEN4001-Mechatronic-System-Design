@@ -119,6 +119,10 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
+# add_executable(background src/background.cpp)
+# target_link_libraries(background ${catkin_LIBRARIES})
+# add_dependencies(background my_package_gencpp)
+
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
 #   src/${PROJECT_NAME}/my_package.cpp

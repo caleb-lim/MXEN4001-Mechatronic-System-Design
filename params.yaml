@@ -1,0 +1,20 @@
+cmd_vel_x: 2.0
+rosdistro: 'melodic
+
+  '
+roslaunch:
+  uris: {host_vdi_lnx_plc_02__36947: 'http://vdi-lnx-plc-02:36947/', host_vdi_lnx_plc_02__38869: 'http://vdi-lnx-plc-02:38869/',
+    host_vdi_lnx_plc_02__45691: 'http://vdi-lnx-plc-02:45691/', host_vdi_lnx_plc_02__46535: 'http://vdi-lnx-plc-02:46535/'}
+rosversion: '1.14.10
+
+  '
+run_id: 7561a35c-e2b1-11ed-97c9-00505693036b
+turtle1:
+  cmd_vel:
+    angular: {x: 0.0, y: 0.0, z: 0.0}
+    linear: {x: 1.0, y: 0.0, z: 0.0}
+turtlesim: {background_b: 20, background_g: 200, background_r: 20}
+turtlesim1:
+  sim: {background_b: 255, background_g: 86, background_r: 69}
+turtlesim2:
+  sim: {background_b: 255, background_g: 86, background_r: 69}
