@@ -10,15 +10,15 @@ int main(int argc, char **argv)
   ros::NodeHandle nh;
 
   // Set the red, green, and blue background parameters
-  nh.setParam("/background_r", 0.5);
-  nh.setParam("/background_g", 0.5);
-  nh.setParam("/background_b", 0.5);
+  nh.setParam("/turtlesim/background_r", double(atoll(argv[1])));
+  nh.setParam("/turtlesim/background_g", double(atoll(argv[2])));
+  nh.setParam("/turtlesim/background_b", double(atoll(argv[3])));
 
   // Get the current values of the background parameters
   double r, g, b;
-  nh.getParam("/background_r", r);
-  nh.getParam("/background_g", g);
-  nh.getParam("/background_b", b);
+  nh.getParam("/turtlesim/background_r", r);
+  nh.getParam("/turtlesim/background_g", g);
+  nh.getParam("/turtlesim/background_b", b);
 
   // Print the current values of the background parameters
   ROS_INFO("Background parameters: r=%f, g=%f, b=%f", r, g, b);

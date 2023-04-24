@@ -12,11 +12,6 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
 )
 
-## Build the background_params node
-include_directories(include ${catkin_INCLUDE_DIRS})
-add_executable(background_params src/background_2.cpp)
-target_link_libraries(background_params ${catkin_LIBRARIES})
-
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
@@ -112,6 +107,13 @@ catkin_package(
 #  CATKIN_DEPENDS roscpp std_msgs
 #  DEPENDS system_lib
 )
+
+## Build the background_params node
+include_directories(include ${catkin_INCLUDE_DIRS})
+add_executable(background_params scripts/background_2.cpp)
+target_link_libraries(background_params ${catkin_LIBRARIES})
+# set_target_properties(background_params PROPERTIES LINKER_LANGUAGE CXX)
+
 
 ###########
 ## Build ##

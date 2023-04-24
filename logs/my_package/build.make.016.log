@@ -1,0 +1,60 @@
+[35m[1mScanning dependencies of target background_params[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/background_params.dir/scripts/background_2.cpp.o[0m
+[01m[K/home/melodic/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/melodic/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp:13:56:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[KsetParam(const char [24], long long int)[m[K’ is ambiguous
+   nh.setParam("/turtlesim/background_r", atoll(argv[1])[01;31m[K)[m[K;
+                                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/melodic/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1555:8:[m[K [01;36m[Knote: [m[Kcandidate: void ros::NodeHandle::setParam(const string&, const XmlRpc::XmlRpcValue&) const
+   void [01;36m[KsetParam[m[K(const std::string& key, const XmlRpc::XmlRpcValue& v) const;
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1576:8:[m[K [01;36m[Knote: [m[Kcandidate: void ros::NodeHandle::setParam(const string&, double) const
+   void [01;36m[KsetParam[m[K(const std::string& key, double d) const;
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1583:8:[m[K [01;36m[Knote: [m[Kcandidate: void ros::NodeHandle::setParam(const string&, int) const
+   void [01;36m[KsetParam[m[K(const std::string& key, int i) const;
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1590:8:[m[K [01;36m[Knote: [m[Kcandidate: void ros::NodeHandle::setParam(const string&, bool) const
+   void [01;36m[KsetParam[m[K(const std::string& key, bool b) const;
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/melodic/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp:14:56:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[KsetParam(const char [24], long long int)[m[K’ is ambiguous
+   nh.setParam("/turtlesim/background_g", atoll(argv[2])[01;31m[K)[m[K;
+                                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/melodic/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1555:8:[m[K [01;36m[Knote: [m[Kcandidate: void ros::NodeHandle::setParam(const string&, const XmlRpc::XmlRpcValue&) const
+   void [01;36m[KsetParam[m[K(const std::string& key, const XmlRpc::XmlRpcValue& v) const;
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1576:8:[m[K [01;36m[Knote: [m[Kcandidate: void ros::NodeHandle::setParam(const string&, double) const
+   void [01;36m[KsetParam[m[K(const std::string& key, double d) const;
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1583:8:[m[K [01;36m[Knote: [m[Kcandidate: void ros::NodeHandle::setParam(const string&, int) const
+   void [01;36m[KsetParam[m[K(const std::string& key, int i) const;
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1590:8:[m[K [01;36m[Knote: [m[Kcandidate: void ros::NodeHandle::setParam(const string&, bool) const
+   void [01;36m[KsetParam[m[K(const std::string& key, bool b) const;
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/home/melodic/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp:15:56:[m[K [01;31m[Kerror: [m[Kcall of overloaded ‘[01m[KsetParam(const char [24], long long int)[m[K’ is ambiguous
+   nh.setParam("/turtlesim/background_b", atoll(argv[3])[01;31m[K)[m[K;
+                                                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/melodic/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1555:8:[m[K [01;36m[Knote: [m[Kcandidate: void ros::NodeHandle::setParam(const string&, const XmlRpc::XmlRpcValue&) const
+   void [01;36m[KsetParam[m[K(const std::string& key, const XmlRpc::XmlRpcValue& v) const;
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1576:8:[m[K [01;36m[Knote: [m[Kcandidate: void ros::NodeHandle::setParam(const string&, double) const
+   void [01;36m[KsetParam[m[K(const std::string& key, double d) const;
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1583:8:[m[K [01;36m[Knote: [m[Kcandidate: void ros::NodeHandle::setParam(const string&, int) const
+   void [01;36m[KsetParam[m[K(const std::string& key, int i) const;
+        [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1590:8:[m[K [01;36m[Knote: [m[Kcandidate: void ros::NodeHandle::setParam(const string&, bool) const
+   void [01;36m[KsetParam[m[K(const std::string& key, bool b) const;
+        [01;36m[K^~~~~~~~[m[K
+CMakeFiles/background_params.dir/build.make:62: recipe for target 'CMakeFiles/background_params.dir/scripts/background_2.cpp.o' failed
+make[2]: *** [CMakeFiles/background_params.dir/scripts/background_2.cpp.o] Error 1
+CMakeFiles/Makefile2:291: recipe for target 'CMakeFiles/background_params.dir/all' failed
+make[1]: *** [CMakeFiles/background_params.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

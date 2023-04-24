@@ -1,0 +1,10 @@
+[31m[1mCMake Error[0m at /home/melodic/MXEN4001-Mechatronic-System-Design/src/my_package/CMakeLists.txt:18 (add_executable):
+  Cannot find source file:
+
+    src/my_package/scripts/background_2.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+make: *** [cmake_check_build_system] Error 1
