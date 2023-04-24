@@ -1,9 +1,8 @@
-
 #include <ros/ros.h>
 #include <ros/console.h>
 #include <std_msgs/String.h>
 #include <sstream>
-#include <turtlesim/SetPen.h>
+// #include <turtlesim/SetPen.h>
 
 std::string getBackgroundColor()
 {
