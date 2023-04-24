@@ -1,3 +1,3 @@
-Linked: (/home/melodic/test/devel/.private/my_package/lib/pkgconfig/my_package.pc, /home/melodic/test/devel/lib/pkgconfig/my_package.pc)
-Linked: (/home/melodic/test/devel/.private/my_package/share/my_package/cmake/my_packageConfig.cmake, /home/melodic/test/devel/share/my_package/cmake/my_packageConfig.cmake)
-Linked: (/home/melodic/test/devel/.private/my_package/share/my_package/cmake/my_packageConfig-version.cmake, /home/melodic/test/devel/share/my_package/cmake/my_packageConfig-version.cmake)
+Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/pkgconfig/my_package.pc
+Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/share/my_package/cmake/my_packageConfig.cmake
+Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/share/my_package/cmake/my_packageConfig-version.cmake

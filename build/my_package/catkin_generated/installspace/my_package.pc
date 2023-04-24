@@ -1,4 +1,4 @@
-prefix=/home/melodic/test/install
+prefix=/home/melodic/MXEN4001-Mechatronic-System-Design/install
 
 Name: my_package
 Description: Description of my_package

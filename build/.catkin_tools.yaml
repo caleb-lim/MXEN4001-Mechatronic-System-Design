@@ -1,0 +1,6 @@
+devel_space: /home/melodic/MXEN4001-Mechatronic-System-Design/devel
+install: false
+install_space: /home/melodic/MXEN4001-Mechatronic-System-Design/install
+profile: default
+source_space: /home/melodic/MXEN4001-Mechatronic-System-Design/src
+workspace: /home/melodic/MXEN4001-Mechatronic-System-Design

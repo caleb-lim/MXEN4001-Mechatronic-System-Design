@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "my_package"
-PROJECT_SPACE_DIR = "/home/melodic/test/devel"
+PROJECT_SPACE_DIR = "/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package"
 PROJECT_VERSION = "0.0.0"

@@ -1,2 +1,0 @@
-my_package
--DCATKIN_DEVEL_PREFIX=/home/melodic/test/devel -DCMAKE_INSTALL_PREFIX=/home/melodic/test/install -G Unix Makefiles
