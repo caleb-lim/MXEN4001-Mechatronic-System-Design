@@ -1,20 +1,27 @@
-// This C++ code can be used to set the background colour 
-#include <ros/ros.h> 
-// #include <std_srvs /Empty.h>
+#include <ros/ros.h>
+#include <std_msgs/ColorRGBA.h>
 
-int main (int argc, char ** argv) {
-    ros::init ( argc, argv, " set_bg_color ");
-    ros::NodeHandle nh; 
-    //This code will wait until a clear service is available. Once the program starts the background will be reset.
-    
-    ros::service::waitForService ("clear"); 
-    //Set the background colour and override the default colour. 
-    
-    ros::param::set ("background_r",210);
-    ros::param::set ("background_g",155);
-    ros::param::set ("background_r",200); 
-    
-    // Get husky simulator to accept the new values of these parameter
-    ros::ServiceClient clearClient = nh.serviceClient<std_srvs::Empty>("/clear");
-    std_srvs::Empty srv;clearClient.call(srv); 
-} 
+int main(int argc, char **argv)
+{
+  // Initialize the ROS node
+  ros::init(argc, argv, "background_params");
+
+  // Create a node handle
+  ros::NodeHandle nh;
+
+  // Set the red, green, and blue background parameters
+  nh.setParam("/background_r", 0.5);
+  nh.setParam("/background_g", 0.5);
+  nh.setParam("/background_b", 0.5);
+
+  // Get the current values of the background parameters
+  double r, g, b;
+  nh.getParam("/background_r", r);
+  nh.getParam("/background_g", g);
+  nh.getParam("/background_b", b);
+
+  // Print the current values of the background parameters
+  ROS_INFO("Background parameters: r=%f, g=%f, b=%f", r, g, b);
+
+  return 0;
+}
