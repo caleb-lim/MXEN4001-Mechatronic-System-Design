@@ -12,6 +12,11 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
 )
 
+## Build the background_params node
+include_directories(include ${catkin_INCLUDE_DIRS})
+add_executable(background_params src/background_2.cpp)
+target_link_libraries(background_params ${catkin_LIBRARIES})
+
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 
