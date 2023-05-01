@@ -1,31 +1,25 @@
-
 #include <ros/ros.h>
 #include <ros/console.h>
-// #include <std_srvs/Empty.h>
+#include <std_msgs/String.h>
+#include <sstream>
+// #include <turtlesim/SetPen.h>
 
-int main (int argc, char ** argv) {
-    // ros::int ( argc, argv, " set_bg_color ");
+std::string getBackgroundColor()
+{
+    std::string backgroundColor;
+    ros::param::get("/turtlesim/background_b", backgroundColor);
+    return backgroundColor;
+}
+
+int main(int argc, char **argv)
+{
+    ros::init(argc, argv, "background_color");
     ros::NodeHandle nh;
-    //This code will wait until a clear service is available. Once the program starts the background will be reset.
-    ros::service::waitForService ("clear");
-    // Get the maximum velocity parameter . 
-    const std :: string PARAM_NAME = "/turtlesim/background_r";
-    int background_col; 
-    bool ok = ros::param::get(PARAM_NAME, background_col);
-    if ( !ok ) { 
-        ROS_FATAL_STREAM( "Could not ge the parameter" << PARAM_NAME) ;
-        exit(1);
-    } else {
-        ROS_DEBUG("Background r: %d", background_col);
-    }
 
-    
-    //Set the background colour and override the default colour.
-    ros::param::set ("background_r",210);
-    ros::param::set ("background_g",155);
-    ros::param::set ("background_r",200);
+    // Get the background color
+    std::string backgroundColor = getBackgroundColor();
+    ROS_INFO("Background color: %s", backgroundColor.c_str());
 
-    // ros::ServiceClient clearClient = nh.serviceClient <std_srvs::Empty>("/clear");
-    // std_srvs::Empty srv;
-    // clearClient.call(srv);
+    ros::spin();
+    return 0;
 }

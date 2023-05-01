@@ -2,8 +2,10 @@
 
   <!-- <rosparam command="load" file="$(find_my_package)/config/params.yaml"> -->
 
-  <group ns="turtlesim1">
-    <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
+  <group ns="turtlesim">
+    <node pkg="my_package" name="background_params" type="background_params" args="0 255 0"/>
+    <node pkg="turtlesim" name="turtle" type="turtlesim_node"/>
+    
   </group>
 
   <group ns="turtlesim2">
