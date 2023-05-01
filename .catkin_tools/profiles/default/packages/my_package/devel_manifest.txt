@@ -1,6 +1,8 @@
 my_package
 /home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/cmake.lock /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./cmake.lock
 /home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/pkgconfig/my_package.pc /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/pkgconfig/my_package.pc
+/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/client /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/client
 /home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params
+/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/server /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/server
 /home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/share/my_package/cmake/my_packageConfig.cmake /home/melodic/MXEN4001-Mechatronic-System-Design/devel/share/my_package/cmake/my_packageConfig.cmake
 /home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/share/my_package/cmake/my_packageConfig-version.cmake /home/melodic/MXEN4001-Mechatronic-System-Design/devel/share/my_package/cmake/my_packageConfig-version.cmake

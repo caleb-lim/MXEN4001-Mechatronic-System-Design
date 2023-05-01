@@ -8,8 +8,8 @@
     
   </group>
 
-  <!-- <group ns="turtlesim2">
+  <group ns="turtlesim2">
     <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
-  </group> -->
+  </group>
 
 </launch>

@@ -168,6 +168,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named server
+
+# Build rule for target.
+server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 server
+.PHONY : server
+
+# fast build rule for target.
+server/fast:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
+.PHONY : server/fast
+
+#=============================================================================
+# Target rules for targets named client
+
+# Build rule for target.
+client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 client
+.PHONY : client
+
+# fast build rule for target.
+client/fast:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+.PHONY : client/fast
+
+#=============================================================================
 # Target rules for targets named std_msgs_generate_messages_nodejs
 
 # Build rule for target.
@@ -519,6 +545,60 @@ scripts/background_2.cpp.s:
 	$(MAKE) -f CMakeFiles/background_params.dir/build.make CMakeFiles/background_params.dir/scripts/background_2.cpp.s
 .PHONY : scripts/background_2.cpp.s
 
+scripts/client.o: scripts/client.cpp.o
+
+.PHONY : scripts/client.o
+
+# target to build an object file
+scripts/client.cpp.o:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/scripts/client.cpp.o
+.PHONY : scripts/client.cpp.o
+
+scripts/client.i: scripts/client.cpp.i
+
+.PHONY : scripts/client.i
+
+# target to preprocess a source file
+scripts/client.cpp.i:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/scripts/client.cpp.i
+.PHONY : scripts/client.cpp.i
+
+scripts/client.s: scripts/client.cpp.s
+
+.PHONY : scripts/client.s
+
+# target to generate assembly for a file
+scripts/client.cpp.s:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/scripts/client.cpp.s
+.PHONY : scripts/client.cpp.s
+
+scripts/server.o: scripts/server.cpp.o
+
+.PHONY : scripts/server.o
+
+# target to build an object file
+scripts/server.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/scripts/server.cpp.o
+.PHONY : scripts/server.cpp.o
+
+scripts/server.i: scripts/server.cpp.i
+
+.PHONY : scripts/server.i
+
+# target to preprocess a source file
+scripts/server.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/scripts/server.cpp.i
+.PHONY : scripts/server.cpp.i
+
+scripts/server.s: scripts/server.cpp.s
+
+.PHONY : scripts/server.s
+
+# target to generate assembly for a file
+scripts/server.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/scripts/server.cpp.s
+.PHONY : scripts/server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -528,6 +608,8 @@ help:
 	@echo "... install/strip"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... server"
+	@echo "... client"
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... install/local"
@@ -560,6 +642,12 @@ help:
 	@echo "... scripts/background_2.o"
 	@echo "... scripts/background_2.i"
 	@echo "... scripts/background_2.s"
+	@echo "... scripts/client.o"
+	@echo "... scripts/client.i"
+	@echo "... scripts/client.s"
+	@echo "... scripts/server.o"
+	@echo "... scripts/server.i"
+	@echo "... scripts/server.s"
 .PHONY : help
 
 

@@ -112,6 +112,13 @@ catkin_package(
 include_directories(include ${catkin_INCLUDE_DIRS})
 add_executable(background_params scripts/background_2.cpp)
 target_link_libraries(background_params ${catkin_LIBRARIES})
+
+add_executable(client scripts/client.cpp)
+target_link_libraries(client ${catkin_LIBRARIES})
+
+add_executable(server scripts/server.cpp)
+target_link_libraries(server ${catkin_LIBRARIES})
+
 # set_target_properties(background_params PROPERTIES LINKER_LANGUAGE CXX)
 
 
