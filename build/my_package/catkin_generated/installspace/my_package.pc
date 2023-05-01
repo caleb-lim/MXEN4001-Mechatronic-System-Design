@@ -1,8 +1,8 @@
-prefix=/home/melodic/MXEN4001-Mechatronic-System-Design/install
+prefix=/home/caleblim/MXEN4001-Mechatronic-System-Design/install
 
 Name: my_package
 Description: Description of my_package
 Version: 0.0.0
-Cflags: 
+Cflags: -I${prefix}/include
 Libs: -L${prefix}/lib 
 Requires: 

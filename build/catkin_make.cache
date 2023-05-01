@@ -1,0 +1,2 @@
+my_package
+-DCATKIN_DEVEL_PREFIX=/home/caleblim/MXEN4001-Mechatronic-System-Design/devel -DCMAKE_INSTALL_PREFIX=/home/caleblim/MXEN4001-Mechatronic-System-Design/install -G Unix Makefiles

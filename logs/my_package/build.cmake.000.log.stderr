@@ -1,0 +1,4 @@
+[31m[1mCMake Error[0m at /home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package/CMakeLists.txt:56 (add_service_files):
+  Unknown CMake command "add_service_files".
+
+
