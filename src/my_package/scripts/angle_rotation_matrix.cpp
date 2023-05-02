@@ -12,6 +12,7 @@
 bool rotateMatrix(  my_package::SetRotationMatrix::Request &req,
                     my_package::SetRotationMatrix::Response &resp)
 {
+    ros::NodeHandle nh;
     bool angleInBounds = true;
 
     ROS_INFO("Rotation Matrix");
@@ -70,6 +71,9 @@ bool rotateMatrix(  my_package::SetRotationMatrix::Request &req,
         }
         ss << "]";
         ROS_INFO("Vector K: %s\n",ss.str().c_str());
+
+        nh.setParam("/rotate_frame/theta", resp.theta);
+        nh.setParam("/rotate_frame/K", K);
     }
 
     return true;
