@@ -155,13 +155,14 @@ import struct
 
 
 class SetRotationMatrixResponse(genpy.Message):
-  _md5sum = "2d11dcdbe5a6f73dd324353dc52315ab"
+  _md5sum = "d121ffca72fb4825b28080072009a7f5"
   _type = "my_package/SetRotationMatrixResponse"
   _has_header = False  # flag to mark the presence of a Header object
-  _full_text = """float32 angle
+  _full_text = """float32 theta
+float32[] K
 """
-  __slots__ = ['angle']
-  _slot_types = ['float32']
+  __slots__ = ['theta','K']
+  _slot_types = ['float32','float32[]']
 
   def __init__(self, *args, **kwds):
     """
@@ -171,7 +172,7 @@ class SetRotationMatrixResponse(genpy.Message):
     changes.  You cannot mix in-order arguments and keyword arguments.
 
     The available fields are:
-       angle
+       theta,K
 
     :param args: complete set of field values, in .msg order
     :param kwds: use keyword arguments corresponding to message field names
@@ -180,10 +181,13 @@ class SetRotationMatrixResponse(genpy.Message):
     if args or kwds:
       super(SetRotationMatrixResponse, self).__init__(*args, **kwds)
       # message fields cannot be None, assign default values for those that are
-      if self.angle is None:
-        self.angle = 0.
+      if self.theta is None:
+        self.theta = 0.
+      if self.K is None:
+        self.K = []
     else:
-      self.angle = 0.
+      self.theta = 0.
+      self.K = []
 
   def _get_types(self):
     """
@@ -197,8 +201,12 @@ class SetRotationMatrixResponse(genpy.Message):
     :param buff: buffer, ``StringIO``
     """
     try:
-      _x = self.angle
+      _x = self.theta
       buff.write(_get_struct_f().pack(_x))
+      length = len(self.K)
+      buff.write(_struct_I.pack(length))
+      pattern = '<%sf'%length
+      buff.write(struct.Struct(pattern).pack(*self.K))
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -213,7 +221,15 @@ class SetRotationMatrixResponse(genpy.Message):
       end = 0
       start = end
       end += 4
-      (self.angle,) = _get_struct_f().unpack(str[start:end])
+      (self.theta,) = _get_struct_f().unpack(str[start:end])
+      start = end
+      end += 4
+      (length,) = _struct_I.unpack(str[start:end])
+      pattern = '<%sf'%length
+      start = end
+      s = struct.Struct(pattern)
+      end += s.size
+      self.K = s.unpack(str[start:end])
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e)  # most likely buffer underfill
@@ -226,8 +242,12 @@ class SetRotationMatrixResponse(genpy.Message):
     :param numpy: numpy python module
     """
     try:
-      _x = self.angle
+      _x = self.theta
       buff.write(_get_struct_f().pack(_x))
+      length = len(self.K)
+      buff.write(_struct_I.pack(length))
+      pattern = '<%sf'%length
+      buff.write(self.K.tostring())
     except struct.error as se: self._check_types(struct.error("%s: '%s' when writing '%s'" % (type(se), str(se), str(locals().get('_x', self)))))
     except TypeError as te: self._check_types(ValueError("%s: '%s' when writing '%s'" % (type(te), str(te), str(locals().get('_x', self)))))
 
@@ -243,7 +263,15 @@ class SetRotationMatrixResponse(genpy.Message):
       end = 0
       start = end
       end += 4
-      (self.angle,) = _get_struct_f().unpack(str[start:end])
+      (self.theta,) = _get_struct_f().unpack(str[start:end])
+      start = end
+      end += 4
+      (length,) = _struct_I.unpack(str[start:end])
+      pattern = '<%sf'%length
+      start = end
+      s = struct.Struct(pattern)
+      end += s.size
+      self.K = numpy.frombuffer(str[start:end], dtype=numpy.float32, count=length)
       return self
     except struct.error as e:
       raise genpy.DeserializationError(e)  # most likely buffer underfill
@@ -260,6 +288,6 @@ def _get_struct_f():
     return _struct_f
 class SetRotationMatrix(object):
   _type          = 'my_package/SetRotationMatrix'
-  _md5sum = 'e26b0831b5184f4a3c0b59f189c892e6'
+  _md5sum = 'd6a6645ce95a32b70fea25cae273de98'
   _request_class  = SetRotationMatrixRequest
   _response_class = SetRotationMatrixResponse

@@ -145,37 +145,56 @@
 
 (defclass my_package::SetRotationMatrixResponse
   :super ros::object
-  :slots (_angle ))
+  :slots (_theta _K ))
 
 (defmethod my_package::SetRotationMatrixResponse
   (:init
    (&key
-    ((:angle __angle) 0.0)
+    ((:theta __theta) 0.0)
+    ((:K __K) (make-array 0 :initial-element 0.0 :element-type :float))
     )
    (send-super :init)
-   (setq _angle (float __angle))
+   (setq _theta (float __theta))
+   (setq _K __K)
    self)
-  (:angle
-   (&optional __angle)
-   (if __angle (setq _angle __angle)) _angle)
+  (:theta
+   (&optional __theta)
+   (if __theta (setq _theta __theta)) _theta)
+  (:K
+   (&optional __K)
+   (if __K (setq _K __K)) _K)
   (:serialization-length
    ()
    (+
-    ;; float32 _angle
+    ;; float32 _theta
     4
+    ;; float32[] _K
+    (* 4    (length _K)) 4
     ))
   (:serialize
    (&optional strm)
    (let ((s (if strm strm
               (make-string-output-stream (send self :serialization-length)))))
-     ;; float32 _angle
-       (sys::poke _angle (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
+     ;; float32 _theta
+       (sys::poke _theta (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
+     ;; float32[] _K
+     (write-long (length _K) s)
+     (dotimes (i (length _K))
+       (sys::poke (elt _K i) (send s :buffer) (send s :count) :float) (incf (stream-count s) 4)
+       )
      ;;
      (if (null strm) (get-output-stream-string s))))
   (:deserialize
    (buf &optional (ptr- 0))
-   ;; float32 _angle
-     (setq _angle (sys::peek buf ptr- :float)) (incf ptr- 4)
+   ;; float32 _theta
+     (setq _theta (sys::peek buf ptr- :float)) (incf ptr- 4)
+   ;; float32[] _K
+   (let (n)
+     (setq n (sys::peek buf ptr- :integer)) (incf ptr- 4)
+     (setq _K (instantiate float-vector n))
+     (dotimes (i n)
+     (setf (elt _K i) (sys::peek buf ptr- :float)) (incf ptr- 4)
+     ))
    ;;
    self)
   )
@@ -184,7 +203,7 @@
   :super ros::object
   :slots ())
 
-(setf (get my_package::SetRotationMatrix :md5sum-) "e26b0831b5184f4a3c0b59f189c892e6")
+(setf (get my_package::SetRotationMatrix :md5sum-) "d6a6645ce95a32b70fea25cae273de98")
 (setf (get my_package::SetRotationMatrix :datatype-) "my_package/SetRotationMatrix")
 (setf (get my_package::SetRotationMatrix :request) my_package::SetRotationMatrixRequest)
 (setf (get my_package::SetRotationMatrix :response) my_package::SetRotationMatrixResponse)
@@ -192,7 +211,7 @@
 (defmethod my_package::SetRotationMatrixRequest
   (:response () (instance my_package::SetRotationMatrixResponse :init)))
 
-(setf (get my_package::SetRotationMatrixRequest :md5sum-) "e26b0831b5184f4a3c0b59f189c892e6")
+(setf (get my_package::SetRotationMatrixRequest :md5sum-) "d6a6645ce95a32b70fea25cae273de98")
 (setf (get my_package::SetRotationMatrixRequest :datatype-) "my_package/SetRotationMatrixRequest")
 (setf (get my_package::SetRotationMatrixRequest :definition-)
       "float32 r11
@@ -205,10 +224,11 @@ float32 r31
 float32 r32
 float32 r33
 ---
-float32 angle
+float32 theta
+float32[] K
 ")
 
-(setf (get my_package::SetRotationMatrixResponse :md5sum-) "e26b0831b5184f4a3c0b59f189c892e6")
+(setf (get my_package::SetRotationMatrixResponse :md5sum-) "d6a6645ce95a32b70fea25cae273de98")
 (setf (get my_package::SetRotationMatrixResponse :datatype-) "my_package/SetRotationMatrixResponse")
 (setf (get my_package::SetRotationMatrixResponse :definition-)
       "float32 r11
@@ -221,11 +241,12 @@ float32 r31
 float32 r32
 float32 r33
 ---
-float32 angle
+float32 theta
+float32[] K
 ")
 
 
 
-(provide :my_package/SetRotationMatrix "e26b0831b5184f4a3c0b59f189c892e6")
+(provide :my_package/SetRotationMatrix "d6a6645ce95a32b70fea25cae273de98")
 
 

@@ -40,7 +40,7 @@ template<>
 struct MD5Sum< ::my_package::SetRotationMatrix > {
   static const char* value()
   {
-    return "e26b0831b5184f4a3c0b59f189c892e6";
+    return "d6a6645ce95a32b70fea25cae273de98";
   }
 
   static const char* value(const ::my_package::SetRotationMatrix&) { return value(); }

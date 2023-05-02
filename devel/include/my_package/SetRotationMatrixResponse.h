@@ -24,17 +24,22 @@ struct SetRotationMatrixResponse_
   typedef SetRotationMatrixResponse_<ContainerAllocator> Type;
 
   SetRotationMatrixResponse_()
-    : angle(0.0)  {
+    : theta(0.0)
+    , K()  {
     }
   SetRotationMatrixResponse_(const ContainerAllocator& _alloc)
-    : angle(0.0)  {
+    : theta(0.0)
+    , K(_alloc)  {
   (void)_alloc;
     }
 
 
 
-   typedef float _angle_type;
-  _angle_type angle;
+   typedef float _theta_type;
+  _theta_type theta;
+
+   typedef std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> _K_type;
+  _K_type K;
 
 
 
@@ -65,7 +70,8 @@ return s;
 template<typename ContainerAllocator1, typename ContainerAllocator2>
 bool operator==(const ::my_package::SetRotationMatrixResponse_<ContainerAllocator1> & lhs, const ::my_package::SetRotationMatrixResponse_<ContainerAllocator2> & rhs)
 {
-  return lhs.angle == rhs.angle;
+  return lhs.theta == rhs.theta &&
+    lhs.K == rhs.K;
 }
 
 template<typename ContainerAllocator1, typename ContainerAllocator2>
@@ -98,12 +104,12 @@ struct IsMessage< ::my_package::SetRotationMatrixResponse_<ContainerAllocator> c
 
 template <class ContainerAllocator>
 struct IsFixedSize< ::my_package::SetRotationMatrixResponse_<ContainerAllocator> >
-  : TrueType
+  : FalseType
   { };
 
 template <class ContainerAllocator>
 struct IsFixedSize< ::my_package::SetRotationMatrixResponse_<ContainerAllocator> const>
-  : TrueType
+  : FalseType
   { };
 
 template <class ContainerAllocator>
@@ -122,12 +128,12 @@ struct MD5Sum< ::my_package::SetRotationMatrixResponse_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "2d11dcdbe5a6f73dd324353dc52315ab";
+    return "d121ffca72fb4825b28080072009a7f5";
   }
 
   static const char* value(const ::my_package::SetRotationMatrixResponse_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x2d11dcdbe5a6f73dULL;
-  static const uint64_t static_value2 = 0xd324353dc52315abULL;
+  static const uint64_t static_value1 = 0xd121ffca72fb4825ULL;
+  static const uint64_t static_value2 = 0xb28080072009a7f5ULL;
 };
 
 template<class ContainerAllocator>
@@ -146,7 +152,8 @@ struct Definition< ::my_package::SetRotationMatrixResponse_<ContainerAllocator> 
 {
   static const char* value()
   {
-    return "float32 angle\n"
+    return "float32 theta\n"
+"float32[] K\n"
 ;
   }
 
@@ -165,7 +172,8 @@ namespace serialization
   {
     template<typename Stream, typename T> inline static void allInOne(Stream& stream, T m)
     {
-      stream.next(m.angle);
+      stream.next(m.theta);
+      stream.next(m.K);
     }
 
     ROS_DECLARE_ALLINONE_SERIALIZER
@@ -184,8 +192,14 @@ struct Printer< ::my_package::SetRotationMatrixResponse_<ContainerAllocator> >
 {
   template<typename Stream> static void stream(Stream& s, const std::string& indent, const ::my_package::SetRotationMatrixResponse_<ContainerAllocator>& v)
   {
-    s << indent << "angle: ";
-    Printer<float>::stream(s, indent + "  ", v.angle);
+    s << indent << "theta: ";
+    Printer<float>::stream(s, indent + "  ", v.theta);
+    s << indent << "K[]" << std::endl;
+    for (size_t i = 0; i < v.K.size(); ++i)
+    {
+      s << indent << "  K[" << i << "]: ";
+      Printer<float>::stream(s, indent + "  ", v.K[i]);
+    }
   }
 };
 

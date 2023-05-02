@@ -244,22 +244,31 @@ class SetRotationMatrixResponse {
   constructor(initObj={}) {
     if (initObj === null) {
       // initObj === null is a special case for deserialization where we don't initialize fields
-      this.angle = null;
+      this.theta = null;
+      this.K = null;
     }
     else {
-      if (initObj.hasOwnProperty('angle')) {
-        this.angle = initObj.angle
+      if (initObj.hasOwnProperty('theta')) {
+        this.theta = initObj.theta
       }
       else {
-        this.angle = 0.0;
+        this.theta = 0.0;
+      }
+      if (initObj.hasOwnProperty('K')) {
+        this.K = initObj.K
+      }
+      else {
+        this.K = [];
       }
     }
   }
 
   static serialize(obj, buffer, bufferOffset) {
     // Serializes a message object of type SetRotationMatrixResponse
-    // Serialize message field [angle]
-    bufferOffset = _serializer.float32(obj.angle, buffer, bufferOffset);
+    // Serialize message field [theta]
+    bufferOffset = _serializer.float32(obj.theta, buffer, bufferOffset);
+    // Serialize message field [K]
+    bufferOffset = _arraySerializer.float32(obj.K, buffer, bufferOffset, null);
     return bufferOffset;
   }
 
@@ -267,13 +276,17 @@ class SetRotationMatrixResponse {
     //deserializes a message object of type SetRotationMatrixResponse
     let len;
     let data = new SetRotationMatrixResponse(null);
-    // Deserialize message field [angle]
-    data.angle = _deserializer.float32(buffer, bufferOffset);
+    // Deserialize message field [theta]
+    data.theta = _deserializer.float32(buffer, bufferOffset);
+    // Deserialize message field [K]
+    data.K = _arrayDeserializer.float32(buffer, bufferOffset, null)
     return data;
   }
 
   static getMessageSize(object) {
-    return 4;
+    let length = 0;
+    length += 4 * object.K.length;
+    return length + 8;
   }
 
   static datatype() {
@@ -283,13 +296,14 @@ class SetRotationMatrixResponse {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return '2d11dcdbe5a6f73dd324353dc52315ab';
+    return 'd121ffca72fb4825b28080072009a7f5';
   }
 
   static messageDefinition() {
     // Returns full string definition for message
     return `
-    float32 angle
+    float32 theta
+    float32[] K
     
     `;
   }
@@ -300,11 +314,18 @@ class SetRotationMatrixResponse {
       msg = {};
     }
     const resolved = new SetRotationMatrixResponse(null);
-    if (msg.angle !== undefined) {
-      resolved.angle = msg.angle;
+    if (msg.theta !== undefined) {
+      resolved.theta = msg.theta;
     }
     else {
-      resolved.angle = 0.0
+      resolved.theta = 0.0
+    }
+
+    if (msg.K !== undefined) {
+      resolved.K = msg.K;
+    }
+    else {
+      resolved.K = []
     }
 
     return resolved;
@@ -314,6 +335,6 @@ class SetRotationMatrixResponse {
 module.exports = {
   Request: SetRotationMatrixRequest,
   Response: SetRotationMatrixResponse,
-  md5sum() { return 'e26b0831b5184f4a3c0b59f189c892e6'; },
+  md5sum() { return 'd6a6645ce95a32b70fea25cae273de98'; },
   datatype() { return 'my_package/SetRotationMatrix'; }
 };

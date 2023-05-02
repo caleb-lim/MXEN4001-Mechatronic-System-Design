@@ -17,6 +17,8 @@
           R32
           R33-VAL
           R33
-          ANGLE-VAL
-          ANGLE
+          THETA-VAL
+          THETA
+          K-VAL
+          K
 ))
