@@ -1,34 +1,24 @@
 #include "ros/ros.h"
 
-class PTPCmdClientPublisher {
+class PTPCommandClient {
     private:
-        
-        ros::ServiceClient ptpcmd_client
-        dobot::SetPTPCmd SetPTPCmd_srv
-        ros::Publisher ptpcmd_publisher
-        
-
+        ros::ServiceClient ptpcmd_client;
+        dobot::SetPTPCmd SetPTPCmd_msg;
+        ros::Subscriber ptpcmd_Subscriber;
     public:
-        PTPCmdClientPublisher(ros::NodeHandle *nh) {
+        PTPCommandClient(ros::NodeHandle *nh) {
            
             ptpcmd_client = nh->serviceClient<dobot::SetPTPCmd>("/DobotServer/SetPTPCmd");
-            ptpcmd_publisher = nh->advertise<dobot::SetPTPCmd>("/dobot/ptp_cmd")  
+            ptpcmd_Subscriber = nh->subscribe("/dobot/ptp_commands", 10,&PTPCommandClient::callback_ptp, this);
         }
 
-        //  Calls the GetPose service, then publishes the result
-        void updatePose() {
-            //  Call the GetPose service attached to pose_client, passing getPose_srv to attain the service response
-            pose_client.call(getPose_srv);
-
-            //  Create a message of type dobot::CartesianSimple
-            dobot::CartesianSimple cartesian_pose_simple_msg;
-            //  Set the message data to the corresponding variables from the service response
-            cartesian_pose_simple_msg.x = getPose_srv.response.x;
-            cartesian_pose_simple_msg.y = getPose_srv.response.y;
-            cartesian_pose_simple_msg.z = getPose_srv.response.z;
-            cartesian_pose_simple_msg.r = getPose_srv.response.r;
-            //  Publish the message using the appropriate publisher
-            cartesian_pose_simple_pub.publish(cartesian_pose_simple_msg);
+        void callback_ptp(const dobot::PTPCommand&msg) { 
+            SetPTPCmd_msg.request.ptpMode = msg.ptpMode;
+            SetPTPCmd_msg.request.x = msg.x;
+            SetPTPCmd_msg.request.y = msg.y;
+            SetPTPCmd_msg.request.z = msg.z;
+            SetPTPCmd_msg.request.r = msg.r;
+            ptpcmd_client.call(SetPTPCmd_msg);
         }
 
         //  Converts an angle from degrees to radians
@@ -36,30 +26,30 @@ class PTPCmdClientPublisher {
             return deg_angle*(M_PI/180.0);
         }
 
-};  // End definition of class PoseClientPublisher
+};  
 
 int main(int argc, char **argv)
 {
-    ros::init(argc, argv, "ptpcmd_publisher");
+    ros::init(argc, argv, "ptpcmd_Subscriber");
     ros::NodeHandle nh;
 
     bool SetPTPCmd_service_available = ros::service::waitForService("/DobotServer/SetPTPCmd", 10000);
 
     if (SetPTPCmd_service_available) {
-        ROS_INFO("ptpcmd_publisher: Connected to service /DobotServer/SetPTPCmd."); 
+        ROS_INFO("ptpcmd_Subscriber: Connected to service /DobotServer/SetPTPCmd."); 
         
-        PTPCmdClientPublisher ptpcmd_publisher = PTPCmdClientPublisher(&nh);
+        PTPCommandClient ptpcmd_Subscriber = PTPCommandClient(&nh);
 
         ros::Rate rate(5); 
        
         while (ros::ok()) {
-            ptpcmd_publisher.updatePTPCmd();
+            ptpcmd_Subscriber.updatePTPCmd();
             ros::spinOnce(); 
             rate.sleep(); 
         }
     }
     else {
-        ROS_ERROR("ptpcmd_publisher: Unable to connect to service /DobotServer/SetPTPCmd."); 
+        ROS_ERROR("ptpcmd_Subscriber: Unable to connect to service /DobotServer/SetPTPCmd."); 
         ros::requestShutdown();
     }
 

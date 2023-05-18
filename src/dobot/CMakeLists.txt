@@ -52,6 +52,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## Generate messages in the 'msg' folder
 add_message_files(
   FILES
+  PTPCommand.msg
   CartesianSimple.msg
 )
 
@@ -255,6 +256,9 @@ add_executable(PosePublisher src/pose_publisher.cpp)
 target_link_libraries(PosePublisher ${catkin_LIBRARIES})
 add_dependencies(PosePublisher dobot_gencpp)
 
+add_executable(PTPCommandClient src/ptp_command_client.cpp)
+target_link_libraries(PTPCommandClient ${catkin_LIBRARIES})
+add_dependencies(PTPCommandClient dobot_gencpp)
 
 
 #############
