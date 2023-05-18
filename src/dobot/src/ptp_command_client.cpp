@@ -43,7 +43,6 @@ int main(int argc, char **argv)
         ros::Rate rate(5); 
        
         while (ros::ok()) {
-            ptpcmd_Subscriber.updatePTPCmd();
             ros::spinOnce(); 
             rate.sleep(); 
         }
