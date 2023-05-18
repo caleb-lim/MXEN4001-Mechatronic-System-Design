@@ -20,12 +20,6 @@ class PTPCommandClient {
             SetPTPCmd_msg.request.r = msg.r;
             ptpcmd_client.call(SetPTPCmd_msg);
         }
-
-        //  Converts an angle from degrees to radians
-        float deg_to_rad(float deg_angle) {
-            return deg_angle*(M_PI/180.0);
-        }
-
 };  
 
 int main(int argc, char **argv)

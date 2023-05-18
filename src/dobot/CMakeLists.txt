@@ -260,6 +260,10 @@ add_executable(PTPCommandClient src/ptp_command_client.cpp)
 target_link_libraries(PTPCommandClient ${catkin_LIBRARIES})
 add_dependencies(PTPCommandClient dobot_gencpp)
 
+add_executable(PTPGoalListener src/ptp_goal_listener.cpp)
+target_link_libraries(PTPGoalListener ${catkin_LIBRARIES})
+add_dependencies(PTPGoalListener dobot_gencpp)
+
 
 #############
 ## Install ##
