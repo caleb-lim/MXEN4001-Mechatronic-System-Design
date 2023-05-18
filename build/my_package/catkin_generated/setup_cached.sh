@@ -7,9 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/melodic/MXEN4001-Mechatronic-System-Design/build/my_package'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/melodic/MXEN4001-Mechatronic-System-Design/src/my_package:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package:$CMAKE_PREFIX_PATH"
+export PWD='/home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package:$ROS_PACKAGE_PATH"

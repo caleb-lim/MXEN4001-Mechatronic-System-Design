@@ -1,0 +1,1 @@
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/share/roseus/ros/my_package/manifest.l

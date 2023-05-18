@@ -1,6 +1,0 @@
-[31m[1mCMake Error[0m at /home/melodic/MXEN4001-Mechatronic-System-Design/src/my_package/CMakeLists.txt:126 (target_link_libraries):
-  Cannot specify link libraries for target "background_params" which is not
-  built by this project.
-
-
-make: *** [cmake_check_build_system] Error 1

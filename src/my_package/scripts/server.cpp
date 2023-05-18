@@ -9,7 +9,7 @@ bool toggleForward(std_srvs::Empty::Request &req,
 {
   forward != forward;
   ROS_INFO_STREAM("Now sending " << (forward ? "forward" : "rotate"));
-    return true;
+  return true;
 }
 
 int main(int argc, char **argv)

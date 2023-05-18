@@ -1,12 +1,46 @@
-Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./setup.bash
-Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./local_setup.bash
-Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./setup.zsh
-Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./setup.sh
-Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./env.sh
-Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./cmake.lock
-Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./local_setup.zsh
-Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./local_setup.sh
-Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./_setup_util.py
-Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/pkgconfig/catkin_tools_prebuild.pc
-Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
-Symlinking /home/melodic/MXEN4001-Mechatronic-System-Design/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/./env.sh
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/./cmake.lock
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/./local_setup.zsh
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/./local_setup.bash
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/./setup.zsh
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/./_setup_util.py
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/./setup.bash
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/./local_setup.sh
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/./setup.sh
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/catkin_tools_prebuild/setup.bash, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./setup.bash)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/catkin_tools_prebuild/local_setup.bash, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./local_setup.bash)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/catkin_tools_prebuild/setup.zsh, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./setup.zsh)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/catkin_tools_prebuild/setup.sh, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./setup.sh)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/catkin_tools_prebuild/env.sh, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./env.sh)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/catkin_tools_prebuild/cmake.lock, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./cmake.lock)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/catkin_tools_prebuild/local_setup.zsh, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./local_setup.zsh)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/catkin_tools_prebuild/local_setup.sh, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./local_setup.sh)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/catkin_tools_prebuild/_setup_util.py, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./_setup_util.py)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/catkin_tools_prebuild/lib/pkgconfig/catkin_tools_prebuild.pc, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/pkgconfig/catkin_tools_prebuild.pc)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/catkin_tools_prebuild/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake)
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./setup.bash
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./local_setup.bash
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./setup.zsh
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./setup.sh
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./env.sh
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./local_setup.zsh
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./local_setup.sh
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./_setup_util.py
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Already unlinked: {}

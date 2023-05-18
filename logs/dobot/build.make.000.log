@@ -1,0 +1,462 @@
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetPTPJumpParams[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetQueuedCmdStopExec[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetColorSensor[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetQueuedCmdStartExec[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetInfraredSensor[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetQueuedCmdForceStopExec[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetQueuedCmdStartExec
+[  0%] Built target _dobot_generate_messages_check_deps_SetPTPJumpParams
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetInfraredSensor[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetInfraredSensor
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetEMotor[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetQueuedCmdForceStopExec
+[  0%] Built target _dobot_generate_messages_check_deps_SetColorSensor
+[  0%] Built target _dobot_generate_messages_check_deps_SetQueuedCmdStopExec
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetIOADC[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetIOPWM[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetIODI[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetIOMultiplexing[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetInfraredSensor
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetIOMultiplexing[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetEMotor
+[  0%] Built target _dobot_generate_messages_check_deps_GetIODI
+[  0%] Built target _dobot_generate_messages_check_deps_SetIOPWM
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetWAITCmd[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetARCCmd[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetARCParams[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetIOMultiplexing
+[  0%] Built target _dobot_generate_messages_check_deps_GetIOADC
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetCPCmd[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetCPParams[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetIOMultiplexing
+[  0%] Built target _dobot_generate_messages_check_deps_SetWAITCmd
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetCPParams[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetARCCmd
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetPTPCommonParams[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetARCParams
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_CartesianSimple[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetHOMEParams[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetCPCmd
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetCmdTimeout[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetCPParams
+[  0%] Built target _dobot_generate_messages_check_deps_SetCPParams
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetDeviceName[0m
+[  0%] Built target _dobot_generate_messages_check_deps_CartesianSimple
+[  0%] Built target _dobot_generate_messages_check_deps_SetPTPCommonParams
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetHOMEParams
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetDeviceVersion[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetPTPJumpParams[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetIODO[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetDeviceSN[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetCmdTimeout
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetPTPCoordinateParams[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetDeviceName
+[  0%] Built target _dobot_generate_messages_check_deps_GetDeviceVersion
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetJOGCommonParams[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetPTPJumpParams
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetEndEffectorParams[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetIODO
+[  0%] Built target _dobot_generate_messages_check_deps_GetDeviceSN
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetARCParams[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetPTPJointParams[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetPTPCoordinateParams
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetIODO[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetPose[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetJOGCommonParams
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetAlarmsState[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetEndEffectorParams
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetQueuedCmdClear[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetARCParams
+[  0%] Built target _dobot_generate_messages_check_deps_GetPTPJointParams
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_ClearAllAlarmsState[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetIODO
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetIOPWM[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetPose
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetHOMEParams[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetColorSensor[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetAlarmsState
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetJOGJointParams[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetQueuedCmdClear
+[  0%] Built target _dobot_generate_messages_check_deps_ClearAllAlarmsState
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetHOMECmd[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetIOPWM
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetEndEffectorParams[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetHOMEParams
+[  0%] Built target _dobot_generate_messages_check_deps_GetColorSensor
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetPTPCommonParams[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetEndEffectorLaser[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetJOGJointParams
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetJOGCoordinateParams[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetPTPCmd[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetEndEffectorParams
+[  0%] Built target _dobot_generate_messages_check_deps_SetHOMECmd
+[  0%] Built target _dobot_generate_messages_check_deps_GetPTPCommonParams
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetDeviceName[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetPTPJointParams[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetEndEffectorSuctionCup[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetJOGCoordinateParams
+[  0%] Built target _dobot_generate_messages_check_deps_SetEndEffectorLaser
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetEndEffectorSuctionCup[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetPTPCmd
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetEndEffectorGripper[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetJOGCmd[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetPTPJointParams
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetEndEffectorGripper[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetEndEffectorSuctionCup
+[  0%] Built target _dobot_generate_messages_check_deps_SetDeviceName
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetJOGJointParams[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetEndEffectorSuctionCup
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetTRIGCmd[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetEndEffectorLaser[0m
+[  0%] Built target _dobot_generate_messages_check_deps_SetEndEffectorGripper
+[  0%] Built target _dobot_generate_messages_check_deps_SetJOGCmd
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetJOGCoordinateParams[0m
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_GetJOGCommonParams[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetEndEffectorGripper
+[  0%] Built target _dobot_generate_messages_check_deps_GetJOGJointParams
+[  0%] Built target _dobot_generate_messages_check_deps_SetTRIGCmd
+[35m[1mScanning dependencies of target _dobot_generate_messages_check_deps_SetPTPCoordinateParams[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target _dobot_generate_messages_check_deps_GetEndEffectorLaser
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _dobot_generate_messages_check_deps_SetJOGCoordinateParams
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _dobot_generate_messages_check_deps_GetJOGCommonParams
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _dobot_generate_messages_check_deps_SetPTPCoordinateParams
+[35m[1mScanning dependencies of target dobot_generate_messages_eus[0m
+[35m[1mScanning dependencies of target dobot_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target dobot_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target dobot_generate_messages_py[0m
+[35m[1mScanning dependencies of target dobot_generate_messages_lisp[0m
+[  1%] [34m[1mGenerating Javascript code from dobot/CartesianSimple.msg[0m
+[  1%] [34m[1mGenerating EusLisp code from dobot/CartesianSimple.msg[0m
+[  2%] [34m[1mGenerating Python from MSG dobot/CartesianSimple[0m
+[  3%] [34m[1mGenerating Lisp code from dobot/CartesianSimple.msg[0m
+[  3%] [34m[1mGenerating Javascript code from dobot/SetCmdTimeout.srv[0m
+[  3%] [34m[1mGenerating C++ code from dobot/CartesianSimple.msg[0m
+[  3%] [34m[1mGenerating Lisp code from dobot/GetDeviceSN.srv[0m
+[  3%] [34m[1mGenerating Lisp code from dobot/SetCmdTimeout.srv[0m
+[  3%] [34m[1mGenerating Javascript code from dobot/GetDeviceSN.srv[0m
+[  3%] [34m[1mGenerating EusLisp code from dobot/SetCmdTimeout.srv[0m
+[  3%] [34m[1mGenerating Lisp code from dobot/SetDeviceName.srv[0m
+[  5%] [34m[1mGenerating Javascript code from dobot/SetDeviceName.srv[0m
+[  5%] [34m[1mGenerating Lisp code from dobot/GetDeviceName.srv[0m
+[  5%] [34m[1mGenerating C++ code from dobot/SetCmdTimeout.srv[0m
+[  5%] [34m[1mGenerating Lisp code from dobot/GetDeviceVersion.srv[0m
+[  5%] [34m[1mGenerating Lisp code from dobot/GetPose.srv[0m
+[  5%] [34m[1mGenerating Javascript code from dobot/GetDeviceName.srv[0m
+[  5%] [34m[1mGenerating Python code from SRV dobot/SetCmdTimeout[0m
+[  6%] [34m[1mGenerating EusLisp code from dobot/GetDeviceSN.srv[0m
+[  6%] [34m[1mGenerating EusLisp code from dobot/SetDeviceName.srv[0m
+[  7%] [34m[1mGenerating Lisp code from dobot/GetAlarmsState.srv[0m
+[  7%] [34m[1mGenerating Javascript code from dobot/GetDeviceVersion.srv[0m
+[  7%] [34m[1mGenerating EusLisp code from dobot/GetDeviceName.srv[0m
+[  7%] [34m[1mGenerating Lisp code from dobot/ClearAllAlarmsState.srv[0m
+[  7%] [34m[1mGenerating Javascript code from dobot/GetPose.srv[0m
+[  8%] [34m[1mGenerating EusLisp code from dobot/GetDeviceVersion.srv[0m
+[  9%] [34m[1mGenerating C++ code from dobot/GetDeviceSN.srv[0m
+[  9%] [34m[1mGenerating Lisp code from dobot/SetHOMEParams.srv[0m
+[ 10%] [34m[1mGenerating Javascript code from dobot/GetAlarmsState.srv[0m
+[ 10%] [34m[1mGenerating EusLisp code from dobot/GetPose.srv[0m
+[ 10%] [34m[1mGenerating Python code from SRV dobot/GetDeviceSN[0m
+[ 10%] [34m[1mGenerating EusLisp code from dobot/GetAlarmsState.srv[0m
+[ 10%] [34m[1mGenerating Javascript code from dobot/ClearAllAlarmsState.srv[0m
+[ 11%] [34m[1mGenerating Lisp code from dobot/GetHOMEParams.srv[0m
+[ 12%] [34m[1mGenerating Javascript code from dobot/SetHOMEParams.srv[0m
+[ 12%] [34m[1mGenerating EusLisp code from dobot/ClearAllAlarmsState.srv[0m
+[ 12%] [34m[1mGenerating Lisp code from dobot/SetHOMECmd.srv[0m
+[ 12%] [34m[1mGenerating EusLisp code from dobot/SetHOMEParams.srv[0m
+[ 13%] [34m[1mGenerating Javascript code from dobot/GetHOMEParams.srv[0m
+[ 13%] [34m[1mGenerating Lisp code from dobot/SetEndEffectorParams.srv[0m
+[ 13%] [34m[1mGenerating C++ code from dobot/SetDeviceName.srv[0m
+[ 14%] [34m[1mGenerating Lisp code from dobot/GetEndEffectorParams.srv[0m
+[ 14%] [34m[1mGenerating Javascript code from dobot/SetHOMECmd.srv[0m
+[ 14%] [34m[1mGenerating EusLisp code from dobot/GetHOMEParams.srv[0m
+[ 14%] [34m[1mGenerating Lisp code from dobot/SetEndEffectorLaser.srv[0m
+[ 15%] [34m[1mGenerating Python code from SRV dobot/SetDeviceName[0m
+[ 15%] [34m[1mGenerating Javascript code from dobot/SetEndEffectorParams.srv[0m
+[ 15%] [34m[1mGenerating Lisp code from dobot/GetEndEffectorLaser.srv[0m
+[ 16%] [34m[1mGenerating Javascript code from dobot/GetEndEffectorParams.srv[0m
+[ 17%] [34m[1mGenerating EusLisp code from dobot/SetHOMECmd.srv[0m
+[ 17%] [34m[1mGenerating Javascript code from dobot/SetEndEffectorLaser.srv[0m
+[ 18%] [34m[1mGenerating Lisp code from dobot/SetEndEffectorSuctionCup.srv[0m
+[ 18%] [34m[1mGenerating Lisp code from dobot/GetEndEffectorSuctionCup.srv[0m
+[ 18%] [34m[1mGenerating C++ code from dobot/GetDeviceName.srv[0m
+[ 18%] [34m[1mGenerating Lisp code from dobot/SetEndEffectorGripper.srv[0m
+[ 18%] [34m[1mGenerating Javascript code from dobot/GetEndEffectorLaser.srv[0m
+[ 18%] [34m[1mGenerating Lisp code from dobot/GetEndEffectorGripper.srv[0m
+[ 18%] [34m[1mGenerating EusLisp code from dobot/SetEndEffectorParams.srv[0m
+[ 18%] [34m[1mGenerating Python code from SRV dobot/GetDeviceName[0m
+[ 19%] [34m[1mGenerating Lisp code from dobot/SetJOGJointParams.srv[0m
+[ 20%] [34m[1mGenerating Javascript code from dobot/SetEndEffectorSuctionCup.srv[0m
+[ 20%] [34m[1mGenerating Lisp code from dobot/GetJOGJointParams.srv[0m
+[ 20%] [34m[1mGenerating EusLisp code from dobot/GetEndEffectorParams.srv[0m
+[ 20%] [34m[1mGenerating Lisp code from dobot/SetJOGCoordinateParams.srv[0m
+[ 21%] [34m[1mGenerating Lisp code from dobot/GetJOGCoordinateParams.srv[0m
+[ 21%] [34m[1mGenerating Javascript code from dobot/GetEndEffectorSuctionCup.srv[0m
+[ 21%] [34m[1mGenerating Lisp code from dobot/SetJOGCommonParams.srv[0m
+[ 22%] [34m[1mGenerating C++ code from dobot/GetDeviceVersion.srv[0m
+[ 22%] [34m[1mGenerating Lisp code from dobot/GetJOGCommonParams.srv[0m
+[ 22%] [34m[1mGenerating Javascript code from dobot/SetEndEffectorGripper.srv[0m
+[ 23%] [34m[1mGenerating EusLisp code from dobot/SetEndEffectorLaser.srv[0m
+[ 24%] [34m[1mGenerating Lisp code from dobot/SetJOGCmd.srv[0m
+[ 24%] [34m[1mGenerating Lisp code from dobot/SetPTPJointParams.srv[0m
+[ 24%] [34m[1mGenerating Python code from SRV dobot/GetDeviceVersion[0m
+[ 25%] [34m[1mGenerating Javascript code from dobot/GetEndEffectorGripper.srv[0m
+[ 25%] [34m[1mGenerating Javascript code from dobot/SetJOGJointParams.srv[0m
+[ 25%] [34m[1mGenerating Lisp code from dobot/GetPTPJointParams.srv[0m
+[ 25%] [34m[1mGenerating EusLisp code from dobot/GetEndEffectorLaser.srv[0m
+[ 26%] [34m[1mGenerating Lisp code from dobot/SetPTPCoordinateParams.srv[0m
+[ 26%] [34m[1mGenerating Lisp code from dobot/GetPTPCoordinateParams.srv[0m
+[ 26%] [34m[1mGenerating Javascript code from dobot/GetJOGJointParams.srv[0m
+[ 26%] [34m[1mGenerating Lisp code from dobot/SetPTPJumpParams.srv[0m
+[ 26%] [34m[1mGenerating C++ code from dobot/GetPose.srv[0m
+[ 26%] [34m[1mGenerating EusLisp code from dobot/SetEndEffectorSuctionCup.srv[0m
+[ 27%] [34m[1mGenerating Lisp code from dobot/GetPTPJumpParams.srv[0m
+[ 27%] [34m[1mGenerating Javascript code from dobot/SetJOGCoordinateParams.srv[0m
+[ 27%] [34m[1mGenerating Lisp code from dobot/SetPTPCommonParams.srv[0m
+[ 28%] [34m[1mGenerating Python code from SRV dobot/GetPose[0m
+[ 28%] [34m[1mGenerating Python code from SRV dobot/GetAlarmsState[0m
+[ 29%] [34m[1mGenerating Javascript code from dobot/GetJOGCoordinateParams.srv[0m
+[ 29%] [34m[1mGenerating Lisp code from dobot/GetPTPCommonParams.srv[0m
+[ 29%] [34m[1mGenerating EusLisp code from dobot/GetEndEffectorSuctionCup.srv[0m
+[ 29%] [34m[1mGenerating Javascript code from dobot/SetJOGCommonParams.srv[0m
+[ 29%] [34m[1mGenerating Lisp code from dobot/SetPTPCmd.srv[0m
+[ 29%] [34m[1mGenerating Javascript code from dobot/GetJOGCommonParams.srv[0m
+[ 30%] [34m[1mGenerating EusLisp code from dobot/SetEndEffectorGripper.srv[0m
+[ 31%] [34m[1mGenerating Lisp code from dobot/SetCPParams.srv[0m
+[ 31%] [34m[1mGenerating C++ code from dobot/GetAlarmsState.srv[0m
+[ 32%] [34m[1mGenerating Javascript code from dobot/SetJOGCmd.srv[0m
+[ 32%] [34m[1mGenerating Lisp code from dobot/GetCPParams.srv[0m
+[ 32%] [34m[1mGenerating Lisp code from dobot/SetCPCmd.srv[0m
+[ 32%] [34m[1mGenerating Python code from SRV dobot/ClearAllAlarmsState[0m
+[ 32%] [34m[1mGenerating EusLisp code from dobot/GetEndEffectorGripper.srv[0m
+[ 34%] [34m[1mGenerating Lisp code from dobot/SetARCParams.srv[0m
+[ 34%] [34m[1mGenerating Javascript code from dobot/SetPTPJointParams.srv[0m
+[ 34%] [34m[1mGenerating Lisp code from dobot/GetARCParams.srv[0m
+[ 34%] [34m[1mGenerating Lisp code from dobot/SetARCCmd.srv[0m
+[ 34%] [34m[1mGenerating Javascript code from dobot/GetPTPJointParams.srv[0m
+[ 35%] [34m[1mGenerating Javascript code from dobot/SetPTPCoordinateParams.srv[0m
+[ 35%] [34m[1mGenerating EusLisp code from dobot/SetJOGJointParams.srv[0m
+[ 36%] [34m[1mGenerating Lisp code from dobot/SetWAITCmd.srv[0m
+[ 36%] [34m[1mGenerating Javascript code from dobot/GetPTPCoordinateParams.srv[0m
+[ 37%] [34m[1mGenerating C++ code from dobot/ClearAllAlarmsState.srv[0m
+[ 37%] [34m[1mGenerating Javascript code from dobot/SetPTPJumpParams.srv[0m
+[ 37%] [34m[1mGenerating Lisp code from dobot/SetTRIGCmd.srv[0m
+[ 37%] [34m[1mGenerating Python code from SRV dobot/SetHOMEParams[0m
+[ 38%] [34m[1mGenerating Javascript code from dobot/GetPTPJumpParams.srv[0m
+[ 39%] [34m[1mGenerating EusLisp code from dobot/GetJOGJointParams.srv[0m
+[ 39%] [34m[1mGenerating Javascript code from dobot/SetPTPCommonParams.srv[0m
+[ 39%] [34m[1mGenerating Lisp code from dobot/SetIOMultiplexing.srv[0m
+[ 39%] [34m[1mGenerating Javascript code from dobot/GetPTPCommonParams.srv[0m
+[ 39%] [34m[1mGenerating EusLisp code from dobot/SetJOGCoordinateParams.srv[0m
+[ 40%] [34m[1mGenerating Lisp code from dobot/GetIOMultiplexing.srv[0m
+[ 40%] [34m[1mGenerating Javascript code from dobot/SetCPParams.srv[0m
+[ 41%] [34m[1mGenerating Javascript code from dobot/SetPTPCmd.srv[0m
+[ 41%] [34m[1mGenerating C++ code from dobot/SetHOMEParams.srv[0m
+[ 41%] [34m[1mGenerating Lisp code from dobot/SetIODO.srv[0m
+[ 41%] [34m[1mGenerating Javascript code from dobot/GetCPParams.srv[0m
+[ 41%] [34m[1mGenerating EusLisp code from dobot/GetJOGCoordinateParams.srv[0m
+[ 41%] [34m[1mGenerating Javascript code from dobot/SetCPCmd.srv[0m
+[ 42%] [34m[1mGenerating Python code from SRV dobot/GetHOMEParams[0m
+[ 42%] [34m[1mGenerating Lisp code from dobot/GetIODO.srv[0m
+[ 43%] [34m[1mGenerating Javascript code from dobot/SetARCParams.srv[0m
+[ 44%] [34m[1mGenerating Lisp code from dobot/SetIOPWM.srv[0m
+[ 45%] [34m[1mGenerating EusLisp code from dobot/SetJOGCommonParams.srv[0m
+[ 45%] [34m[1mGenerating Lisp code from dobot/GetIOPWM.srv[0m
+[ 45%] [34m[1mGenerating Lisp code from dobot/GetIODI.srv[0m
+[ 45%] [34m[1mGenerating Javascript code from dobot/GetARCParams.srv[0m
+[ 45%] [34m[1mGenerating Lisp code from dobot/GetIOADC.srv[0m
+[ 45%] [34m[1mGenerating C++ code from dobot/GetHOMEParams.srv[0m
+[ 46%] [34m[1mGenerating C++ code from dobot/SetHOMECmd.srv[0m
+[ 46%] [34m[1mGenerating EusLisp code from dobot/GetJOGCommonParams.srv[0m
+[ 46%] [34m[1mGenerating Javascript code from dobot/SetARCCmd.srv[0m
+[ 47%] [34m[1mGenerating Lisp code from dobot/SetEMotor.srv[0m
+[ 47%] [34m[1mGenerating Python code from SRV dobot/SetHOMECmd[0m
+[ 48%] [34m[1mGenerating Javascript code from dobot/SetWAITCmd.srv[0m
+[ 48%] [34m[1mGenerating Lisp code from dobot/GetInfraredSensor.srv[0m
+[ 48%] [34m[1mGenerating EusLisp code from dobot/SetJOGCmd.srv[0m
+[ 48%] [34m[1mGenerating Javascript code from dobot/SetTRIGCmd.srv[0m
+[ 48%] [34m[1mGenerating Lisp code from dobot/SetInfraredSensor.srv[0m
+[ 49%] [34m[1mGenerating EusLisp code from dobot/SetPTPJointParams.srv[0m
+[ 50%] [34m[1mGenerating Lisp code from dobot/SetColorSensor.srv[0m
+[ 50%] [34m[1mGenerating C++ code from dobot/SetEndEffectorParams.srv[0m
+[ 50%] [34m[1mGenerating Javascript code from dobot/SetIOMultiplexing.srv[0m
+[ 50%] [34m[1mGenerating C++ code from dobot/GetEndEffectorParams.srv[0m
+[ 50%] [34m[1mGenerating Python code from SRV dobot/SetEndEffectorParams[0m
+[ 51%] [34m[1mGenerating Javascript code from dobot/GetIOMultiplexing.srv[0m
+[ 50%] [34m[1mGenerating Lisp code from dobot/GetColorSensor.srv[0m
+[ 51%] [34m[1mGenerating EusLisp code from dobot/GetPTPJointParams.srv[0m
+[ 51%] [34m[1mGenerating Javascript code from dobot/SetIODO.srv[0m
+[ 51%] [34m[1mGenerating Lisp code from dobot/SetQueuedCmdStartExec.srv[0m
+[ 51%] [34m[1mGenerating Javascript code from dobot/GetIODO.srv[0m
+[ 52%] [34m[1mGenerating Lisp code from dobot/SetQueuedCmdStopExec.srv[0m
+[ 52%] [34m[1mGenerating EusLisp code from dobot/SetPTPCoordinateParams.srv[0m
+[ 53%] [34m[1mGenerating Python code from SRV dobot/GetEndEffectorParams[0m
+[ 54%] [34m[1mGenerating Javascript code from dobot/SetIOPWM.srv[0m
+[ 54%] [34m[1mGenerating Lisp code from dobot/SetQueuedCmdForceStopExec.srv[0m
+[ 54%] [34m[1mGenerating Javascript code from dobot/GetIOPWM.srv[0m
+[ 54%] [34m[1mGenerating C++ code from dobot/SetEndEffectorLaser.srv[0m
+[ 54%] [34m[1mGenerating Javascript code from dobot/GetIODI.srv[0m
+[ 55%] [34m[1mGenerating EusLisp code from dobot/GetPTPCoordinateParams.srv[0m
+[ 55%] [34m[1mGenerating Lisp code from dobot/SetQueuedCmdClear.srv[0m
+[ 56%] [34m[1mGenerating Javascript code from dobot/GetIOADC.srv[0m
+[ 56%] [34m[1mGenerating Javascript code from dobot/SetEMotor.srv[0m
+[ 56%] Built target dobot_generate_messages_lisp
+[ 56%] [34m[1mGenerating Javascript code from dobot/GetInfraredSensor.srv[0m
+[ 56%] [34m[1mGenerating EusLisp code from dobot/SetPTPJumpParams.srv[0m
+[ 56%] [34m[1mGenerating Javascript code from dobot/SetInfraredSensor.srv[0m
+[ 57%] [34m[1mGenerating Javascript code from dobot/SetColorSensor.srv[0m
+[ 57%] [34m[1mGenerating Python code from SRV dobot/SetEndEffectorLaser[0m
+[ 57%] [34m[1mGenerating Javascript code from dobot/GetColorSensor.srv[0m
+[ 57%] [34m[1mGenerating Python code from SRV dobot/GetEndEffectorLaser[0m
+[ 58%] [34m[1mGenerating Python code from SRV dobot/SetEndEffectorSuctionCup[0m
+[ 59%] [34m[1mGenerating C++ code from dobot/GetEndEffectorLaser.srv[0m
+[ 59%] [34m[1mGenerating EusLisp code from dobot/GetPTPJumpParams.srv[0m
+[ 59%] [34m[1mGenerating Javascript code from dobot/SetQueuedCmdStartExec.srv[0m
+[ 60%] [34m[1mGenerating Javascript code from dobot/SetQueuedCmdStopExec.srv[0m
+[ 60%] [34m[1mGenerating EusLisp code from dobot/SetPTPCommonParams.srv[0m
+[ 60%] [34m[1mGenerating Javascript code from dobot/SetQueuedCmdForceStopExec.srv[0m
+[ 60%] [34m[1mGenerating Python code from SRV dobot/GetEndEffectorSuctionCup[0m
+[ 60%] [34m[1mGenerating Javascript code from dobot/SetQueuedCmdClear.srv[0m
+[ 61%] [34m[1mGenerating EusLisp code from dobot/GetPTPCommonParams.srv[0m
+[ 61%] [34m[1mGenerating Python code from SRV dobot/SetEndEffectorGripper[0m
+[ 62%] [34m[1mGenerating Python code from SRV dobot/GetEndEffectorGripper[0m
+[ 62%] Built target dobot_generate_messages_nodejs
+[ 62%] [34m[1mGenerating EusLisp code from dobot/SetPTPCmd.srv[0m
+[ 62%] [34m[1mGenerating C++ code from dobot/SetEndEffectorSuctionCup.srv[0m
+[ 62%] [34m[1mGenerating EusLisp code from dobot/SetCPParams.srv[0m
+[ 62%] [34m[1mGenerating Python code from SRV dobot/SetJOGJointParams[0m
+[ 63%] [34m[1mGenerating EusLisp code from dobot/GetCPParams.srv[0m
+[ 63%] [34m[1mGenerating Python code from SRV dobot/GetJOGJointParams[0m
+[ 64%] [34m[1mGenerating Python code from SRV dobot/SetJOGCoordinateParams[0m
+[ 64%] [34m[1mGenerating Python code from SRV dobot/GetJOGCoordinateParams[0m
+[ 64%] [34m[1mGenerating EusLisp code from dobot/SetCPCmd.srv[0m
+[ 64%] [34m[1mGenerating C++ code from dobot/GetEndEffectorSuctionCup.srv[0m
+[ 64%] [34m[1mGenerating Python code from SRV dobot/SetJOGCommonParams[0m
+[ 64%] [34m[1mGenerating EusLisp code from dobot/SetARCParams.srv[0m
+[ 64%] [34m[1mGenerating Python code from SRV dobot/GetJOGCommonParams[0m
+[ 65%] [34m[1mGenerating Python code from SRV dobot/SetJOGCmd[0m
+[ 65%] [34m[1mGenerating Python code from SRV dobot/SetPTPJointParams[0m
+[ 67%] [34m[1mGenerating EusLisp code from dobot/GetARCParams.srv[0m
+[ 68%] [34m[1mGenerating C++ code from dobot/SetEndEffectorGripper.srv[0m
+[ 68%] [34m[1mGenerating Python code from SRV dobot/GetPTPJointParams[0m
+[ 68%] [34m[1mGenerating EusLisp code from dobot/SetARCCmd.srv[0m
+[ 69%] [34m[1mGenerating Python code from SRV dobot/SetPTPCoordinateParams[0m
+[ 69%] [34m[1mGenerating Python code from SRV dobot/GetPTPCoordinateParams[0m
+[ 69%] [34m[1mGenerating Python code from SRV dobot/SetPTPJumpParams[0m
+[ 69%] [34m[1mGenerating EusLisp code from dobot/SetWAITCmd.srv[0m
+[ 70%] [34m[1mGenerating Python code from SRV dobot/GetPTPJumpParams[0m
+[ 70%] [34m[1mGenerating C++ code from dobot/GetEndEffectorGripper.srv[0m
+[ 71%] [34m[1mGenerating EusLisp code from dobot/SetTRIGCmd.srv[0m
+[ 71%] [34m[1mGenerating Python code from SRV dobot/SetPTPCommonParams[0m
+[ 71%] [34m[1mGenerating Python code from SRV dobot/GetPTPCommonParams[0m
+[ 71%] [34m[1mGenerating EusLisp code from dobot/SetIOMultiplexing.srv[0m
+[ 71%] [34m[1mGenerating EusLisp code from dobot/GetIOMultiplexing.srv[0m
+[ 72%] [34m[1mGenerating EusLisp code from dobot/SetIODO.srv[0m
+[ 72%] [34m[1mGenerating C++ code from dobot/SetJOGJointParams.srv[0m
+[ 72%] [34m[1mGenerating EusLisp code from dobot/GetIODO.srv[0m
+[ 72%] [34m[1mGenerating EusLisp code from dobot/SetIOPWM.srv[0m
+[ 72%] [34m[1mGenerating EusLisp code from dobot/GetIOPWM.srv[0m
+[ 73%] [34m[1mGenerating EusLisp code from dobot/GetIODI.srv[0m
+[ 74%] [34m[1mGenerating Python code from SRV dobot/SetPTPCmd[0m
+[ 74%] [34m[1mGenerating EusLisp code from dobot/GetIOADC.srv[0m
+[ 74%] [34m[1mGenerating Python code from SRV dobot/SetCPParams[0m
+[ 74%] [34m[1mGenerating EusLisp code from dobot/SetEMotor.srv[0m
+[ 75%] [34m[1mGenerating EusLisp code from dobot/GetInfraredSensor.srv[0m
+[ 76%] [34m[1mGenerating C++ code from dobot/GetJOGJointParams.srv[0m
+[ 76%] [34m[1mGenerating C++ code from dobot/SetJOGCoordinateParams.srv[0m
+[ 76%] [34m[1mGenerating EusLisp code from dobot/SetInfraredSensor.srv[0m
+[ 76%] [34m[1mGenerating EusLisp code from dobot/SetColorSensor.srv[0m
+[ 76%] [34m[1mGenerating Python code from SRV dobot/GetCPParams[0m
+[ 77%] [34m[1mGenerating Python code from SRV dobot/SetCPCmd[0m
+[ 78%] [34m[1mGenerating EusLisp code from dobot/GetColorSensor.srv[0m
+[ 78%] [34m[1mGenerating EusLisp code from dobot/SetQueuedCmdStartExec.srv[0m
+[ 78%] [34m[1mGenerating C++ code from dobot/GetJOGCoordinateParams.srv[0m
+[ 78%] [34m[1mGenerating EusLisp code from dobot/SetQueuedCmdStopExec.srv[0m
+[ 79%] [34m[1mGenerating C++ code from dobot/SetJOGCommonParams.srv[0m
+[ 80%] [34m[1mGenerating EusLisp code from dobot/SetQueuedCmdForceStopExec.srv[0m
+[ 80%] [34m[1mGenerating Python code from SRV dobot/SetARCParams[0m
+[ 80%] [34m[1mGenerating EusLisp code from dobot/SetQueuedCmdClear.srv[0m
+[ 80%] [34m[1mGenerating Python code from SRV dobot/GetARCParams[0m
+[ 80%] [34m[1mGenerating EusLisp manifest code for dobot[0m
+[ 80%] [34m[1mGenerating C++ code from dobot/GetJOGCommonParams.srv[0m
+[ 80%] [34m[1mGenerating Python code from SRV dobot/SetARCCmd[0m
+[ 80%] [34m[1mGenerating C++ code from dobot/SetJOGCmd.srv[0m
+[ 81%] [34m[1mGenerating Python code from SRV dobot/SetWAITCmd[0m
+[ 81%] [34m[1mGenerating Python code from SRV dobot/SetTRIGCmd[0m
+[ 81%] [34m[1mGenerating Python code from SRV dobot/SetIOMultiplexing[0m
+[ 82%] [34m[1mGenerating C++ code from dobot/SetPTPJointParams.srv[0m
+[ 82%] [34m[1mGenerating C++ code from dobot/GetPTPJointParams.srv[0m
+[ 83%] [34m[1mGenerating Python code from SRV dobot/GetIOMultiplexing[0m
+[ 83%] [34m[1mGenerating Python code from SRV dobot/SetIODO[0m
+[ 83%] [34m[1mGenerating Python code from SRV dobot/GetIODO[0m
+[ 83%] [34m[1mGenerating C++ code from dobot/SetPTPCoordinateParams.srv[0m
+[ 83%] [34m[1mGenerating C++ code from dobot/GetPTPCoordinateParams.srv[0m
+[ 84%] [34m[1mGenerating C++ code from dobot/SetPTPJumpParams.srv[0m
+[ 85%] [34m[1mGenerating Python code from SRV dobot/SetIOPWM[0m
+[ 85%] [34m[1mGenerating Python code from SRV dobot/GetIOPWM[0m
+[ 85%] [34m[1mGenerating C++ code from dobot/GetPTPJumpParams.srv[0m
+[ 85%] [34m[1mGenerating C++ code from dobot/SetPTPCommonParams.srv[0m
+[ 86%] [34m[1mGenerating C++ code from dobot/GetPTPCommonParams.srv[0m
+[ 86%] [34m[1mGenerating Python code from SRV dobot/GetIODI[0m
+[ 86%] Built target dobot_generate_messages_eus
+[ 87%] [34m[1mGenerating Python code from SRV dobot/GetIOADC[0m
+[ 87%] [34m[1mGenerating Python code from SRV dobot/SetEMotor[0m
+[ 87%] [34m[1mGenerating C++ code from dobot/SetPTPCmd.srv[0m
+[ 87%] [34m[1mGenerating C++ code from dobot/SetCPParams.srv[0m
+[ 88%] [34m[1mGenerating C++ code from dobot/GetCPParams.srv[0m
+[ 88%] [34m[1mGenerating Python code from SRV dobot/GetInfraredSensor[0m
+[ 89%] [34m[1mGenerating Python code from SRV dobot/SetInfraredSensor[0m
+[ 89%] [34m[1mGenerating Python code from SRV dobot/SetColorSensor[0m
+[ 89%] [34m[1mGenerating C++ code from dobot/SetCPCmd.srv[0m
+[ 89%] [34m[1mGenerating C++ code from dobot/SetARCParams.srv[0m
+[ 90%] [34m[1mGenerating C++ code from dobot/GetARCParams.srv[0m
+[ 90%] [34m[1mGenerating Python code from SRV dobot/GetColorSensor[0m
+[ 90%] [34m[1mGenerating Python code from SRV dobot/SetQueuedCmdStartExec[0m
+[ 91%] [34m[1mGenerating Python code from SRV dobot/SetQueuedCmdStopExec[0m
+[ 91%] [34m[1mGenerating C++ code from dobot/SetARCCmd.srv[0m
+[ 91%] [34m[1mGenerating C++ code from dobot/SetWAITCmd.srv[0m
+[ 92%] [34m[1mGenerating C++ code from dobot/SetTRIGCmd.srv[0m
+[ 92%] [34m[1mGenerating Python code from SRV dobot/SetQueuedCmdForceStopExec[0m
+[ 92%] [34m[1mGenerating Python code from SRV dobot/SetQueuedCmdClear[0m
+[ 92%] [34m[1mGenerating C++ code from dobot/SetIOMultiplexing.srv[0m
+[ 92%] [34m[1mGenerating C++ code from dobot/GetIOMultiplexing.srv[0m
+[ 92%] [34m[1mGenerating C++ code from dobot/SetIODO.srv[0m
+[ 93%] [34m[1mGenerating C++ code from dobot/GetIODO.srv[0m
+[ 93%] [34m[1mGenerating C++ code from dobot/SetIOPWM.srv[0m
+[ 94%] [34m[1mGenerating Python msg __init__.py for dobot[0m
+[ 94%] [34m[1mGenerating C++ code from dobot/GetIOPWM.srv[0m
+[ 95%] [34m[1mGenerating C++ code from dobot/GetIODI.srv[0m
+[ 95%] [34m[1mGenerating C++ code from dobot/GetIOADC.srv[0m
+[ 95%] [34m[1mGenerating C++ code from dobot/SetEMotor.srv[0m
+[ 96%] [34m[1mGenerating C++ code from dobot/GetInfraredSensor.srv[0m
+[ 96%] [34m[1mGenerating Python srv __init__.py for dobot[0m
+[ 96%] [34m[1mGenerating C++ code from dobot/SetInfraredSensor.srv[0m
+[ 96%] [34m[1mGenerating C++ code from dobot/SetColorSensor.srv[0m
+[ 97%] [34m[1mGenerating C++ code from dobot/GetColorSensor.srv[0m
+[ 97%] [34m[1mGenerating C++ code from dobot/SetQueuedCmdStartExec.srv[0m
+[ 97%] [34m[1mGenerating C++ code from dobot/SetQueuedCmdStopExec.srv[0m
+[ 97%] Built target dobot_generate_messages_py
+[ 98%] [34m[1mGenerating C++ code from dobot/SetQueuedCmdForceStopExec.srv[0m
+[ 98%] [34m[1mGenerating C++ code from dobot/SetQueuedCmdClear.srv[0m
+[ 98%] Built target dobot_generate_messages_cpp
+[35m[1mScanning dependencies of target dobot_generate_messages[0m
+[35m[1mScanning dependencies of target dobot_gencpp[0m
+[ 98%] Built target dobot_gencpp
+[ 98%] Built target dobot_generate_messages
+[35m[1mScanning dependencies of target DobotServer[0m
+[35m[1mScanning dependencies of target PosePublisher[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/PosePublisher.dir/src/pose_publisher.cpp.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/DobotServer.dir/src/DobotServer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/dobot/lib/dobot/PosePublisher[0m
+[100%] Built target PosePublisher
+[100%] [32m[1mLinking CXX executable /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/dobot/lib/dobot/DobotServer[0m
+[100%] Built target DobotServer

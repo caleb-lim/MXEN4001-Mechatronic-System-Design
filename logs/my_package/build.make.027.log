@@ -1,5 +1,0 @@
-[35m[1mScanning dependencies of target client[0m
-[ 50%] Built target background_params
-[ 75%] [32mBuilding CXX object CMakeFiles/client.dir/scripts/client.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/client[0m
-[100%] Built target client
