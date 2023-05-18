@@ -68,7 +68,7 @@ set(my_package_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(my_package_SOURCE_PREFIX /home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package)
-  set(my_package_DEVEL_PREFIX /home/caleblim/MXEN4001-Mechatronic-System-Design/devel)
+  set(my_package_DEVEL_PREFIX /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package)
   set(my_package_INSTALL_PREFIX "")
   set(my_package_PREFIX ${my_package_DEVEL_PREFIX})
 else()

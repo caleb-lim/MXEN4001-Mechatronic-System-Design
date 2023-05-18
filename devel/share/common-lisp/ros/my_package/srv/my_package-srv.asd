@@ -1,9 +1,1 @@
-
-(cl:in-package :asdf)
-
-(defsystem "my_package-srv"
-  :depends-on (:roslisp-msg-protocol :roslisp-utils )
-  :components ((:file "_package")
-    (:file "SetRotationMatrix" :depends-on ("_package_SetRotationMatrix"))
-    (:file "_package_SetRotationMatrix" :depends-on ("_package"))
-  ))
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/share/common-lisp/ros/my_package/srv/my_package-srv.asd

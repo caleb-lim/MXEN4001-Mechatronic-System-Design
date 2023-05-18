@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/roseus/ros/my_package/manifest.l"
-  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/roseus/ros/my_package/srv/SetRotationMatrix.l"
+  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/share/roseus/ros/my_package/manifest.l"
+  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/share/roseus/ros/my_package/srv/SetRotationMatrix.l"
   "CMakeFiles/my_package_generate_messages_eus"
 )
 

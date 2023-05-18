@@ -43,32 +43,32 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/caleblim/MXEN4001-Mechatronic-System-Design/src
+CMAKE_SOURCE_DIR = /home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/caleblim/MXEN4001-Mechatronic-System-Design/build
+CMAKE_BINARY_DIR = /home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package
 
 # Include any dependencies generated for this target.
-include my_package/CMakeFiles/background_params.dir/depend.make
+include CMakeFiles/background_params.dir/depend.make
 
 # Include the progress variables for this target.
-include my_package/CMakeFiles/background_params.dir/progress.make
+include CMakeFiles/background_params.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include my_package/CMakeFiles/background_params.dir/flags.make
+include CMakeFiles/background_params.dir/flags.make
 
-my_package/CMakeFiles/background_params.dir/scripts/background_2.cpp.o: my_package/CMakeFiles/background_params.dir/flags.make
-my_package/CMakeFiles/background_params.dir/scripts/background_2.cpp.o: /home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caleblim/MXEN4001-Mechatronic-System-Design/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_package/CMakeFiles/background_params.dir/scripts/background_2.cpp.o"
-	cd /home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/background_params.dir/scripts/background_2.cpp.o -c /home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp
+CMakeFiles/background_params.dir/scripts/background_2.cpp.o: CMakeFiles/background_params.dir/flags.make
+CMakeFiles/background_params.dir/scripts/background_2.cpp.o: /home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/background_params.dir/scripts/background_2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/background_params.dir/scripts/background_2.cpp.o -c /home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp
 
-my_package/CMakeFiles/background_params.dir/scripts/background_2.cpp.i: cmake_force
+CMakeFiles/background_params.dir/scripts/background_2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/background_params.dir/scripts/background_2.cpp.i"
-	cd /home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp > CMakeFiles/background_params.dir/scripts/background_2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp > CMakeFiles/background_params.dir/scripts/background_2.cpp.i
 
-my_package/CMakeFiles/background_params.dir/scripts/background_2.cpp.s: cmake_force
+CMakeFiles/background_params.dir/scripts/background_2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/background_params.dir/scripts/background_2.cpp.s"
-	cd /home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp -o CMakeFiles/background_params.dir/scripts/background_2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package/scripts/background_2.cpp -o CMakeFiles/background_params.dir/scripts/background_2.cpp.s
 
 # Object files for target background_params
 background_params_OBJECTS = \
@@ -77,39 +77,39 @@ background_params_OBJECTS = \
 # External object files for target background_params
 background_params_EXTERNAL_OBJECTS =
 
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: my_package/CMakeFiles/background_params.dir/scripts/background_2.cpp.o
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: my_package/CMakeFiles/background_params.dir/build.make
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /opt/ros/noetic/lib/libroscpp.so
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /opt/ros/noetic/lib/librosconsole.so
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /opt/ros/noetic/lib/librostime.so
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /opt/ros/noetic/lib/libcpp_common.so
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params: my_package/CMakeFiles/background_params.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/caleblim/MXEN4001-Mechatronic-System-Design/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params"
-	cd /home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/background_params.dir/link.txt --verbose=$(VERBOSE)
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: CMakeFiles/background_params.dir/scripts/background_2.cpp.o
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: CMakeFiles/background_params.dir/build.make
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /opt/ros/noetic/lib/libroscpp.so
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /opt/ros/noetic/lib/librosconsole.so
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /opt/ros/noetic/lib/librostime.so
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /opt/ros/noetic/lib/libcpp_common.so
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params: CMakeFiles/background_params.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/background_params.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-my_package/CMakeFiles/background_params.dir/build: /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params
+CMakeFiles/background_params.dir/build: /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params
 
-.PHONY : my_package/CMakeFiles/background_params.dir/build
+.PHONY : CMakeFiles/background_params.dir/build
 
-my_package/CMakeFiles/background_params.dir/clean:
-	cd /home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package && $(CMAKE_COMMAND) -P CMakeFiles/background_params.dir/cmake_clean.cmake
-.PHONY : my_package/CMakeFiles/background_params.dir/clean
+CMakeFiles/background_params.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/background_params.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/background_params.dir/clean
 
-my_package/CMakeFiles/background_params.dir/depend:
-	cd /home/caleblim/MXEN4001-Mechatronic-System-Design/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/caleblim/MXEN4001-Mechatronic-System-Design/src /home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package /home/caleblim/MXEN4001-Mechatronic-System-Design/build /home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package /home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package/CMakeFiles/background_params.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : my_package/CMakeFiles/background_params.dir/depend
+CMakeFiles/background_params.dir/depend:
+	cd /home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package /home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package /home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package /home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package /home/caleblim/MXEN4001-Mechatronic-System-Design/build/my_package/CMakeFiles/background_params.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/background_params.dir/depend
 

@@ -1,0 +1,6 @@
+devel_space: /home/caleblim/MXEN4001-Mechatronic-System-Design/devel
+install: false
+install_space: /home/caleblim/MXEN4001-Mechatronic-System-Design/install
+profile: default
+source_space: /home/caleblim/MXEN4001-Mechatronic-System-Design/src
+workspace: /home/caleblim/MXEN4001-Mechatronic-System-Design

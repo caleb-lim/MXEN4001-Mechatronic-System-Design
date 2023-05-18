@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/include/my_package/SetRotationMatrix.h"
+  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/include/my_package/SetRotationMatrix.h"
   "CMakeFiles/my_package_generate_messages_cpp"
 )
 

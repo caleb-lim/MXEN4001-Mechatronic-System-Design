@@ -1,8 +1,1 @@
-prefix=/home/caleblim/MXEN4001-Mechatronic-System-Design/devel
-
-Name: my_package
-Description: Description of my_package
-Version: 0.0.0
-Cflags: -I/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/include
-Libs: -L${prefix}/lib 
-Requires: 
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/pkgconfig/my_package.pc

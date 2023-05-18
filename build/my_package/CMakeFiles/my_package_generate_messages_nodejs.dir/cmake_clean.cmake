@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/gennodejs/ros/my_package/srv/SetRotationMatrix.js"
+  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/share/gennodejs/ros/my_package/srv/SetRotationMatrix.js"
   "CMakeFiles/my_package_generate_messages_nodejs"
 )
 

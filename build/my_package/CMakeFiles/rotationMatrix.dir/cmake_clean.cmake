@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/rotationMatrix"
-  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/rotationMatrix.pdb"
+  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/rotationMatrix"
+  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/rotationMatrix.pdb"
   "CMakeFiles/rotationMatrix.dir/scripts/angle_rotation_matrix.cpp.o"
 )
 

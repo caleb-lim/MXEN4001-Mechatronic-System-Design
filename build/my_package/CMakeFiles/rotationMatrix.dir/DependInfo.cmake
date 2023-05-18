@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/include"
+  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/include"
   "/home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"

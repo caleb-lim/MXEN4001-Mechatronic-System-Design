@@ -1,8 +1,1 @@
-
-"use strict";
-
-let SetRotationMatrix = require('./SetRotationMatrix.js')
-
-module.exports = {
-  SetRotationMatrix: SetRotationMatrix,
-};
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/share/gennodejs/ros/my_package/srv/_index.js

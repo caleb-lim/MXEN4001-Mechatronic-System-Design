@@ -1,10 +1,1 @@
-(cl:defpackage my_package-srv
-  (:use )
-  (:export
-   "SETROTATIONMATRIX"
-   "<SETROTATIONMATRIX-REQUEST>"
-   "SETROTATIONMATRIX-REQUEST"
-   "<SETROTATIONMATRIX-RESPONSE>"
-   "SETROTATIONMATRIX-RESPONSE"
-  ))
-
+/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/share/common-lisp/ros/my_package/srv/_package.lisp

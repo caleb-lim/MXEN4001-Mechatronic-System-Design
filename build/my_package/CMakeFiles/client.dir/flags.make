@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"my_package\"
 
-CXX_INCLUDES = -I/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/include -I/home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/include -I/home/caleblim/MXEN4001-Mechatronic-System-Design/src/my_package/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

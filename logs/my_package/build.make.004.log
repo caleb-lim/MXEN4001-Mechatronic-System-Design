@@ -1,0 +1,16 @@
+[  0%] Built target std_msgs_generate_messages_eus
+[ 26%] Built target background_params
+[ 26%] Built target client
+[ 26%] Built target std_msgs_generate_messages_py
+[ 26%] Built target std_msgs_generate_messages_cpp
+[ 26%] Built target std_msgs_generate_messages_lisp
+[ 26%] Built target _my_package_generate_messages_check_deps_SetRotationMatrix
+[ 26%] Built target std_msgs_generate_messages_nodejs
+[ 40%] Built target server
+[ 53%] Built target rotationMatrix
+[ 66%] Built target my_package_generate_messages_eus
+[ 80%] Built target my_package_generate_messages_py
+[ 86%] Built target my_package_generate_messages_cpp
+[100%] Built target my_package_generate_messages_nodejs
+[100%] Built target my_package_generate_messages_lisp
+[100%] Built target my_package_generate_messages

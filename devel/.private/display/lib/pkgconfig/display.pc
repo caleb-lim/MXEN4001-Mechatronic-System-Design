@@ -1,0 +1,8 @@
+prefix=/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/display
+
+Name: display
+Description: Description of display
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

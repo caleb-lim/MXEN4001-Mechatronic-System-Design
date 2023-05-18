@@ -1,0 +1,47 @@
+[35m[1mScanning dependencies of target client[0m
+[35m[1mScanning dependencies of target _my_package_generate_messages_check_deps_SetRotationMatrix[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target background_params[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target server[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  6%] [32mBuilding CXX object CMakeFiles/client.dir/scripts/client.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/background_params.dir/scripts/background_2.cpp.o[0m
+[ 13%] Built target std_msgs_generate_messages_lisp
+[ 13%] Built target std_msgs_generate_messages_nodejs
+[ 20%] [32mBuilding CXX object CMakeFiles/server.dir/scripts/server.cpp.o[0m
+[35m[1mScanning dependencies of target rotationMatrix[0m
+[ 20%] Built target _my_package_generate_messages_check_deps_SetRotationMatrix
+[ 26%] [32mBuilding CXX object CMakeFiles/rotationMatrix.dir/scripts/angle_rotation_matrix.cpp.o[0m
+[35m[1mScanning dependencies of target my_package_generate_messages_eus[0m
+[35m[1mScanning dependencies of target my_package_generate_messages_py[0m
+[ 33%] [34m[1mGenerating EusLisp code from my_package/SetRotationMatrix.srv[0m
+[ 40%] [34m[1mGenerating Python code from SRV my_package/SetRotationMatrix[0m
+[ 46%] [34m[1mGenerating EusLisp manifest code for my_package[0m
+[ 53%] [34m[1mGenerating Python srv __init__.py for my_package[0m
+[ 53%] Built target my_package_generate_messages_py
+[35m[1mScanning dependencies of target my_package_generate_messages_cpp[0m
+[ 60%] [34m[1mGenerating C++ code from my_package/SetRotationMatrix.srv[0m
+[ 60%] Built target my_package_generate_messages_eus
+[35m[1mScanning dependencies of target my_package_generate_messages_lisp[0m
+[ 66%] [34m[1mGenerating Lisp code from my_package/SetRotationMatrix.srv[0m
+[ 66%] Built target my_package_generate_messages_cpp
+[ 66%] Built target my_package_generate_messages_lisp
+[35m[1mScanning dependencies of target my_package_generate_messages_nodejs[0m
+[ 73%] [34m[1mGenerating Javascript code from my_package/SetRotationMatrix.srv[0m
+[ 73%] Built target my_package_generate_messages_nodejs
+[35m[1mScanning dependencies of target my_package_generate_messages[0m
+[ 73%] Built target my_package_generate_messages
+[ 80%] [32m[1mLinking CXX executable /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params[0m
+[ 86%] [32m[1mLinking CXX executable /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/client[0m
+[ 86%] Built target background_params
+[ 86%] Built target client
+[ 93%] [32m[1mLinking CXX executable /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/server[0m
+[100%] [32m[1mLinking CXX executable /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/rotationMatrix[0m
+[100%] Built target server
+[100%] Built target rotationMatrix

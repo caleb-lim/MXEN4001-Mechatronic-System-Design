@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/common-lisp/ros/my_package/srv/SetRotationMatrix.lisp"
+  "/home/caleblim/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/share/common-lisp/ros/my_package/srv/SetRotationMatrix.lisp"
   "CMakeFiles/my_package_generate_messages_lisp"
 )
 

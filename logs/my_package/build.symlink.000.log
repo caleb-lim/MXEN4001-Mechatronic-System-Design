@@ -1,0 +1,43 @@
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/include/my_package/SetRotationMatrix.h
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/include/my_package/SetRotationMatrixResponse.h
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/include/my_package/SetRotationMatrixRequest.h
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/common-lisp/ros/my_package/srv/_package_SetRotationMatrix.lisp
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/common-lisp/ros/my_package/srv/my_package-srv.asd
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/common-lisp/ros/my_package/srv/_package.lisp
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/common-lisp/ros/my_package/srv/SetRotationMatrix.lisp
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/gennodejs/ros/my_package/_index.js
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/gennodejs/ros/my_package/srv/_index.js
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/gennodejs/ros/my_package/srv/SetRotationMatrix.js
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/my_package/cmake/my_packageConfig.cmake
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/my_package/cmake/my_package-msg-paths.cmake
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/my_package/cmake/my_packageConfig-version.cmake
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/my_package/cmake/my_package-msg-extras.cmake
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/roseus/ros/my_package/manifest.l
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/share/roseus/ros/my_package/srv/SetRotationMatrix.l
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/pkgconfig/my_package.pc
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/rotationMatrix
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/client
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/server
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/python3/dist-packages/my_package/__init__.py
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/python3/dist-packages/my_package/srv/__init__.py
+Symlinking /home/caleblim/MXEN4001-Mechatronic-System-Design/devel/lib/python3/dist-packages/my_package/srv/_SetRotationMatrix.py
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/cmake.lock, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/./cmake.lock)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/pkgconfig/my_package.pc, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/pkgconfig/my_package.pc)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/client, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/client)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/background_params, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/lib/my_package/server, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/server)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/share/my_package/cmake/my_packageConfig.cmake, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/share/my_package/cmake/my_packageConfig.cmake)
+Cleaning: (/home/melodic/MXEN4001-Mechatronic-System-Design/devel/.private/my_package/share/my_package/cmake/my_packageConfig-version.cmake, /home/melodic/MXEN4001-Mechatronic-System-Design/devel/share/my_package/cmake/my_packageConfig-version.cmake)
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/pkgconfig/my_package.pc
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/client
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/background_params
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/lib/my_package/server
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/share/my_package/cmake/my_packageConfig.cmake
+Already unlinked: {}
+Unlinking: /home/melodic/MXEN4001-Mechatronic-System-Design/devel/share/my_package/cmake/my_packageConfig-version.cmake
+Already unlinked: {}
