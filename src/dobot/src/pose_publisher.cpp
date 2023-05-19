@@ -35,6 +35,8 @@ class PoseClientPublisher {
         ros::ServiceClient pose_client;  // Client instance
         dobot::GetPose getPose_srv;  // Service variable to be passed when calling GetPose
         ros::Publisher cartesian_pose_simple_pub;  // Publisher for the simple cartesian pose
+        ros::Publisher jointState_publisher;  // Publisher for the simple cartesian pose
+        ros::Publisher quaternion_pub;  // Publisher for the simple cartesian pose
 
     //  Declare public functions for this class
     public:
@@ -46,7 +48,8 @@ class PoseClientPublisher {
             // Create a publisher to publish on the topic /dobot/cartesian_pose_simple with maximum queue size of 10.
             // The message type for this topic is dobot::CartesianSimple, defined in /msg/CartesianSimple.h
             cartesian_pose_simple_pub = nh->advertise<dobot::CartesianSimple>("/dobot/cartesian_simple_pose", 10);
-
+            jointState_publisher = nh->advertise<sensor_msgs::JointState>("/dobot/joint_pose",10);
+            quaternion_pub = nh->advertise<geometry_msgs::Pose>("/quaternion",10);
             // Because the variable 'nh' is a pointer, 'nh->' is used instead of 'nh.'
         }
 
@@ -62,6 +65,10 @@ class PoseClientPublisher {
             cartesian_pose_simple_msg.y = getPose_srv.response.y;
             cartesian_pose_simple_msg.z = getPose_srv.response.z;
             cartesian_pose_simple_msg.r = getPose_srv.response.r;
+
+            
+
+
             //  Publish the message using the appropriate publisher
             cartesian_pose_simple_pub.publish(cartesian_pose_simple_msg);
         }

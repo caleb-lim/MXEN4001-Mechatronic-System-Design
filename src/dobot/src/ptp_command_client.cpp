@@ -1,4 +1,7 @@
 #include "ros/ros.h"
+#include "dobot/SetPTPCmd.h"
+#include "dobot/PTPCommand.h"
+#include <cmath>
 
 class PTPCommandClient {
     private:
@@ -19,6 +22,8 @@ class PTPCommandClient {
             SetPTPCmd_msg.request.z = msg.z;
             SetPTPCmd_msg.request.r = msg.r;
             ptpcmd_client.call(SetPTPCmd_msg);
+            
+            ROS_INFO("Mode: %d\nx: %f\ny: %f\nz: %f\nr: %f\n\n", msg.ptpMode, msg.x, msg.y, msg.z, msg.r);
         }
 };  
 

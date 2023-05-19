@@ -1,4 +1,7 @@
 #include "ros/ros.h"
+#include "dobot/PTPCommand.h"
+#include "dobot/SetPTPCmd.h"
+
 
 #include "dobot/CartesianSimple.h"
 #include "geometry_msgs/Pose.h"
@@ -16,7 +19,7 @@ class PTPGoalListener {
         ros::Subscriber Joint;
     public:
         PTPGoalListener(ros::NodeHandle *nh) {           
-            pub = nh->advertise<dobot::SetPTPCmd>("/dobot/ptp_commands", 10);
+            pub = nh->advertise<dobot::PTPCommand>("/dobot/ptp_commands", 10);
 
             CartesianSimple = nh->subscribe("/dobot/cartesian_simple_goal", 10,&PTPGoalListener::callback_CartesianSimple, this);
             CartesianQuaternion = nh->subscribe("/dobot/cartesian_quat_goal", 10,&PTPGoalListener::callback_CartesianQuaternion, this);
@@ -29,7 +32,7 @@ class PTPGoalListener {
             SetPTPCmd_msg.y = msg.y;
             SetPTPCmd_msg.z = msg.z;
             SetPTPCmd_msg.r = msg.r;
-            pub.call(SetPTPCmd_msg);
+            pub.publish(SetPTPCmd_msg);
         }
 
         void callback_CartesianQuaternion(const geometry_msgs::Pose&msg) { 
@@ -38,7 +41,9 @@ class PTPGoalListener {
             SetPTPCmd_msg.y = msg.position.y;
             SetPTPCmd_msg.z = msg.position.z;
             SetPTPCmd_msg.r = rad_to_deg(acos(msg.orientation.z)*2);
-            ptpcmd_client.call(SetPTPCmd_msg);
+            ROS_INFO("\nCalc:\nx: %f\ny: %f\nz: %f\nr: %f\n\n",  SetPTPCmd_msg.x,SetPTPCmd_msg.y,SetPTPCmd_msg.z, SetPTPCmd_msg.r);
+
+            pub.publish(SetPTPCmd_msg);
         }
 
         void callback_Joint(const sensor_msgs::JointState&msg) { 
@@ -47,7 +52,9 @@ class PTPGoalListener {
             SetPTPCmd_msg.y = rad_to_deg(msg.position[1]);
             SetPTPCmd_msg.z = rad_to_deg(msg.position[2]);
             SetPTPCmd_msg.r = rad_to_deg(msg.position[3]);
-            ptpcmd_client.call(SetPTPCmd_msg);
+            ROS_INFO("\nCalc:\nx: %f\ny: %f\nz: %f\nr: %f\n\n",  SetPTPCmd_msg.x,SetPTPCmd_msg.y,SetPTPCmd_msg.z, SetPTPCmd_msg.r);
+
+            pub.publish(SetPTPCmd_msg);
         }
 
         //  Converts an angle from degrees to radians
