@@ -161,7 +161,8 @@ include_directories(
 add_executable(JointVisualsConverter src/joint_visuals_converter.cpp)
 target_link_libraries(JointVisualsConverter ${catkin_LIBRARIES})
 
-
+add_executable(JointGoalPublisher src/joint_goal_publisher.cpp)
+target_link_libraries(JointGoalPublisher ${catkin_LIBRARIES})
 
 
 #############
