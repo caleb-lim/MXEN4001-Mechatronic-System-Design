@@ -31,12 +31,17 @@
       <remap from="robot_description" to="robot_visuals_description" />
     </node>
 
-    <!-- <node
-    name="joint_goal_publisher"
+    <node
+    name="joint_goal_listener"
     pkg="dobot"
-    type="PTPGoalPublisher"
-    output="screen" >
-    </node> -->
+    type="PTPGoalListener">
+    </node>
+
+    <node
+      name="PTPCommandClient"
+      pkg="dobot"
+      type="PTPCommandClient">
+    </node>
 
   <node
     name="robot_state_publisher"
